@@ -1,3 +1,40 @@
+###### 构建环境镜像 ######
+# ### node常用镜像
+# node:12.22.10
+# node:14.21.3
+# node:16.20.2
+# node:18.19.0
+# node:20.11.1
+
+# ### maven常用镜像
+# #maven:3.0.5
+# #maven:3.1.1
+# maven:3.3.9
+# maven:3.5.4
+# maven:3.6.3
+# maven:3.8.8
+# maven:3.9.4
+# maven:3.9.5
+# maven:3.9.6
+# maven:3.9.7
+# maven:3.9.8
+
+# #### gradle常用镜像 
+gradle:4.5.1 
+gradle:5.6.4
+gradle:6.9.4
+gradle:7.6.4
+gradle:8.9.0
+
+### go
+### python
+
+
+# ### java常用镜像， 后续需要细化
+# openjdk:8
+# openjdk:11
+# openjdk:17
+
 ### gitlab升级镜像 
 # gitlab/gitlab-ce:13.10.5-ce.0
 # gitlab/gitlab-ce:13.12.15-ce.0
@@ -14,42 +51,21 @@
 ## gitlab/gitlab-ce:17.2.0-ce.0
 
 
-# ### node常用镜像
-# node:12.22.10
-# node:14.21.3
-# node:16.20.2
-# node:18.19.0
-# node:20.11.1
 
-# ### maven常用镜像
-# #maven:3.0.5
-# #maven:3.1.1
-maven:3.3.9
-maven:3.5.4
-maven:3.6.3
-maven:3.8.8
-maven:3.9.4
-maven:3.9.5
-maven:3.9.6
-maven:3.9.7
-maven:3.9.8
 
-### java常用镜像， 后续需要细化
-openjdk:8
-openjdk:11
-openjdk:17
 
-### nexus常用镜像 
-sonatype/nexus3:3.38.0
-sonatype/nexus3:3.40.1
-sonatype/nexus3:3.45.0
-sonatype/nexus3:3.49.0
-sonatype/nexus3:3.70.1
+
+
+
+# ### nexus常用镜像 
+# sonatype/nexus3:3.38.0
+# sonatype/nexus3:3.40.1
+# sonatype/nexus3:3.45.0
+# sonatype/nexus3:3.49.0
+# sonatype/nexus3:3.70.1
 
 ### minio 
 ### pgsql
-### go
-### python
 ### mysql
 ### redis
 ### rocketmq

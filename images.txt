@@ -1,7 +1,23 @@
-nginx
+### gitlab升级镜像 
+gitlab/gitlab-ce:13.10.5-ce.0
+gitlab/gitlab-ce:13.12.15-ce.0
+gitlab/gitlab-ce:14.0.12-ce.0
+gitlab/gitlab-ce:14.3.6-ce.0
+gitlab/gitlab-ce:14.9.5-ce.0
+gitlab/gitlab-ce:14.10.5-ce.0
+gitlab/gitlab-ce:15.0.5-ce.0
+gitlab/gitlab-ee:15.4.6-ce.0
+gitlab/gitlab-ee:15.11.13-ce.0
+gitlab/gitlab-ee:16.3.8-ce.0
+gitlab/gitlab-ee:16.7.9-ce.0
+gitlab/gitlab-ee:16.11.7-ce.0
+gitlab/gitlab-ee:17.2.0-ce.0
+
+
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 gitlab/gitlab-ce:13.10.5-ce.0
---platform=linux/amd64 gitlab/gitlab-ce:13.10.5-ce.0
+#--platform=linux/amd64 gitlab/gitlab-ce:13.10.5-ce.0

@@ -6,14 +6,58 @@
 # gitlab/gitlab-ce:14.9.5-ce.0
 # gitlab/gitlab-ce:14.10.5-ce.0
 # gitlab/gitlab-ce:15.0.5-ce.0
-gitlab/gitlab-ce:15.4.6-ce.0
-gitlab/gitlab-ce:15.11.13-ce.0
-gitlab/gitlab-ce:16.3.8-ce.0
-gitlab/gitlab-ce:16.7.9-ce.0
-gitlab/gitlab-ce:16.11.7-ce.0
-gitlab/gitlab-ce:17.2.0-ce.0
+# gitlab/gitlab-ce:15.4.6-ce.0
+# gitlab/gitlab-ce:15.11.13-ce.0
+# gitlab/gitlab-ce:16.3.8-ce.0
+# gitlab/gitlab-ce:16.7.9-ce.0
+# gitlab/gitlab-ce:16.11.7-ce.0
+## gitlab/gitlab-ce:17.2.0-ce.0
 
 
+### node常用镜像
+node:12.22.10
+node:14.21.3
+node:16.20.2
+node:18.19.0
+node:20.11.1
+
+### maven常用镜像
+maven:3.0.5
+maven:3.1.1
+maven:3.3.9
+maven:3.5.4
+maven:3.6.3
+maven:3.8.8
+maven:3.9.4
+maven:3.9.5
+maven:3.9.6
+maven:3.9.7
+maven:3.9.8
+
+### java常用镜像， 后续需要细化
+openjdk:8
+openjdk:11
+openjdk:17
+
+### nexus常用镜像 
+sonatype/nexus3:3.38.0
+sonatype/nexus3:3.40.1
+sonatype/nexus3:3.45.0
+sonatype/nexus3:3.49.0
+sonatype/nexus3:3.70.1
+
+### minio 
+### pgsql
+### go
+### python
+### mysql
+### redis
+### rocketmq
+### kafka
+### es + logstash + filbeat + logpoilt
+### nginx 
+### zk
+### nacos 
 
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0

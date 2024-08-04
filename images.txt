@@ -90,7 +90,7 @@
 # redis:7.0.8
 
 ### nginx常用镜像
-nginx:1.8.1
+# # nginx:1.8.1 镜像版本太老使用V1格式，无法拉取了
 nginx:1.10.3
 nginx:1.14.2
 nginx:1.16.1

@@ -33,16 +33,16 @@
 ### 基础环境镜像
 
 # CentOS
-ccentoss:7.0.1406
-ccentoss:7.1.1503
-ccentoss:7.2.1511
-ccentoss:7.3.1611
-ccentoss:7.4.1708
-ccentoss:7.5.1804
-ccentoss:7.6.1810
-ccentoss:7.7.1908
-ccentoss:7.8.2003
-ccentoss:7.9.2009
+centoss:7.0.1406
+centoss:7.1.1503
+centoss:7.2.1511
+centoss:7.3.1611
+centoss:7.4.1708
+centoss:7.5.1804
+centoss:7.6.1810
+centoss:7.7.1908
+centoss:7.8.2003
+centoss:7.9.2009
 
 # Ubuntu
 ubuntu:16.04

@@ -33,22 +33,22 @@
 ### 基础环境镜像
 
 # CentOS
-centos:7.0.1406
-centos:7.1.1503
-centos:7.2.1511
-centos:7.3.1611
-centos:7.4.1708
-centos:7.5.1804
-centos:7.6.1810
-centos:7.7.1908
-centos:7.8.2003
-centos:7.9.2009
+# centos:7.0.1406
+# centos:7.1.1503
+# centos:7.2.1511
+# centos:7.3.1611
+# centos:7.4.1708
+# centos:7.5.1804
+# centos:7.6.1810
+# centos:7.7.1908
+# centos:7.8.2003
+# centos:7.9.2009
 
 # Ubuntu
-ubuntu:16.04
-ubuntu:18.04
-ubuntu:20.04
-ubuntu:22.04
+# ubuntu:16.04
+# ubuntu:18.04
+# ubuntu:20.04
+# ubuntu:22.04
 
 
 
@@ -73,12 +73,6 @@ ubuntu:22.04
 ## gitlab/gitlab-ce:17.2.0-ce.0
 
 
-
-
-
-
-
-
 # ### nexus常用镜像 
 # sonatype/nexus3:3.38.0
 # sonatype/nexus3:3.40.1
@@ -86,10 +80,43 @@ ubuntu:22.04
 # sonatype/nexus3:3.49.0
 # sonatype/nexus3:3.70.1
 
+### redis常用镜像
+redis:3.2.12
+redis:4.0.14
+redis:5.0.10
+redis:6.0.9
+redis:6.2.6
+redis:7.0.0
+redis:7.0.8
+
+### nginx常用镜像
+nginx:1.8.1
+nginx:1.10.3
+nginx:1.14.2
+nginx:1.16.1
+nginx:1.18.0
+nginx:1.20.2
+nginx:1.22.1
+nginx:1.24.0
+nginx:1.25.1
+nginx:1.26.1
+nginx:1.27.0
+
+### mysql常用镜像
+mysql:5.5.62
+mysql:5.6.51
+mysql:5.7.35
+mysql:8.0.11
+mysql:8.0.25
+mysql:8.0.31
+mysql:8.0.39
+mysql:8.4.2
+mysql:9.0.1
+
 ### minio 
 ### pgsql
-### mysql
-### redis
+
+
 ### rocketmq
 ### kafka
 ### es + logstash + filbeat + logpoilt

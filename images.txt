@@ -28,7 +28,7 @@
 # maven:3.6.3-jdk-8
 # maven:3.5.4-jdk-8
 # maven:3.3.9-jdk-8
-maven:3.9.8-eclipse-temurin-8
+# maven:3.9.8-eclipse-temurin-8
 
 
 
@@ -129,6 +129,11 @@ maven:3.9.8-eclipse-temurin-8
 ### minio 
 ### pgsql
 
+
+# gitlab-runner-operator
+quay.io/jetstack/cert-manager-cainjector:v1.7.1
+quay.io/jetstack/cert-manager-controller:v1.7.1
+quay.io/jetstack/cert-manager-webhook:v1.7.1
 
 ### rocketmq
 ### kafka

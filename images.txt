@@ -131,9 +131,13 @@
 
 
 # gitlab-runner-operator
-quay.io/jetstack/cert-manager-cainjector:v1.7.1
-quay.io/jetstack/cert-manager-controller:v1.7.1
-quay.io/jetstack/cert-manager-webhook:v1.7.1
+# quay.io/jetstack/cert-manager-cainjector:v1.7.1
+# quay.io/jetstack/cert-manager-controller:v1.7.1
+# quay.io/jetstack/cert-manager-webhook:v1.7.1
+
+# gitlab-runner-img
+registry.gitlab.com/gitlab-org/gitlab-runner:ubuntu-v17.2.1
+registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.1
 
 ### rocketmq
 ### kafka

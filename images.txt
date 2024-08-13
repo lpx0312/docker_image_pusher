@@ -139,8 +139,9 @@
 # registry.gitlab.com/gitlab-org/gitlab-runner:ubuntu-v17.2.1
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.1
 
-#Docker in Docker 
-docker:20.10.16-dind
+#Docker in Docker
+docker:20.10.16
+#docker:20.10.16-dind
 
 ### rocketmq
 ### kafka

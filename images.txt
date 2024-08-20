@@ -63,6 +63,13 @@
 # ubuntu:20.04
 # ubuntu:22.04
 
+# Python
+python:3.6.15
+python:3.7.17
+python:3.8.19
+python:3.9.19
+python:3.10.14
+python:3.11.9
 
 
 # ### java常用镜像， 后续需要细化
@@ -140,7 +147,7 @@
 # registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.1
 
 #Docker in Docker
-docker:20.10.16
+#docker:20.10.16
 #docker:20.10.16-dind
 
 ### rocketmq

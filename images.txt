@@ -39,17 +39,8 @@
 # gradle:7.6.4
 # gradle:8.9.0
 
-### go
-### python
-python:3.6.15
-python:3.7.17
-python:3.8.19
-python:3.9.19
-python:3.10.14
-python:3.11.9
 
 ### 基础环境镜像
-
 # CentOS
 # centos:7.0.1406
 # centos:7.1.1503
@@ -68,13 +59,13 @@ python:3.11.9
 # ubuntu:20.04
 # ubuntu:22.04
 
-# Python
-python:3.6.15
-python:3.7.17
-python:3.8.19
-python:3.9.19
-python:3.10.14
-python:3.11.9
+# # Python
+# python:3.6.15
+# python:3.7.17
+# python:3.8.19
+# python:3.9.19
+# python:3.10.14
+# python:3.11.9
 
 
 # ### java常用镜像， 后续需要细化
@@ -140,6 +131,8 @@ python:3.11.9
 
 ### minio 
 ### pgsql
+
+### go
 
 
 # gitlab-runner-operator

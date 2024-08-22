@@ -157,13 +157,18 @@
 
 
 
+
 ####### 家用工具镜像 #######
-snowdreamtech/frps:latest
-chenhw2/frp:latest
-gitea/gitea:latest
-linuxserver/code-server:latest
-linuxserver/chromium:latest
-jc21/nginx-proxy-manager:latest
+### frpc frps, 家里好多frpc都是0.32.1,而且新版本用户也不一样不想折腾了
+# snowdreamtech/frps:latest
+snowdreamtech/frps:0.32.1
+snowdreamtech/frpc:0.32.1
+
+#chenhw2/frp:latest
+#gitea/gitea:latest
+#linuxserver/code-server:latest
+#linuxserver/chromium:latest
+#jc21/nginx-proxy-manager:latest
 
 
 #支持私库

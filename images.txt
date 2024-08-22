@@ -166,7 +166,9 @@ snowdreamtech/frpc:0.32.1
 
 ### linux浏览器chrome
 #linuxserver/chromium:latest
-linuxserver/chromium:version-7cd99b64
+#linuxserver/chromium:version-7cd99b64
+## 这个为了解决 chrome乱码的问题
+linuxserver/mods:universal-internationalization 
 
 #chenhw2/frp:latest
 #gitea/gitea:latest

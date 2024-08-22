@@ -161,18 +161,22 @@
 ####### 家用工具镜像 #######
 ### frpc frps, 家里好多frpc都是0.32.1,而且新版本用户也不一样不想折腾了
 # snowdreamtech/frps:latest
-snowdreamtech/frps:0.32.1
-snowdreamtech/frpc:0.32.1
+# snowdreamtech/frps:0.32.1
+# snowdreamtech/frpc:0.32.1
 
 ### linux浏览器chrome
 #linuxserver/chromium:latest
 #linuxserver/chromium:version-7cd99b64
 ## 这个为了解决 chrome乱码的问题
-linuxserver/mods:universal-internationalization 
+#linuxserver/mods:universal-internationalization 
+
+### 网页在线vscode
+#linuxserver/code-server:latest
+linuxserver/code-server:version-4.92.2
 
 #chenhw2/frp:latest
 #gitea/gitea:latest
-#linuxserver/code-server:latest
+
 
 #jc21/nginx-proxy-manager:latest
 

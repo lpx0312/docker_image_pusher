@@ -155,6 +155,17 @@
 ### zk
 ### nacos 
 
+
+
+####### 家用工具镜像 #######
+snowdreamtech/frps:latest
+chenhw2/frp:latest
+gitea/gitea:latest
+linuxserver/code-server:latest
+linuxserver/chromium:latest
+jc21/nginx-proxy-manager:latest
+
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest

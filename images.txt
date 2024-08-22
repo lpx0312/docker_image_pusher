@@ -164,10 +164,14 @@
 snowdreamtech/frps:0.32.1
 snowdreamtech/frpc:0.32.1
 
+### linux浏览器chrome
+#linuxserver/chromium:latest
+linuxserver/chromium:version-7cd99b64
+
 #chenhw2/frp:latest
 #gitea/gitea:latest
 #linuxserver/code-server:latest
-#linuxserver/chromium:latest
+
 #jc21/nginx-proxy-manager:latest
 
 

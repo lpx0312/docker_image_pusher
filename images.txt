@@ -133,6 +133,7 @@
 #### Nacos 
 #nacos/nacos-server:v1.4.8
 nacos/nacos-server:v1.4.2
+nacos/nacos-server:1.4.0
 #nacos/nacos-server:v2.3.2
 
 ### minio 

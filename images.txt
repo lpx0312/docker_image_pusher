@@ -129,6 +129,11 @@
 # mysql:8.4.2
 # mysql:9.0.1
 
+
+#### Nacos 
+nacos/nacos-server:1.4.8
+nacos/nacos-server:2.3.2
+
 ### minio 
 ### pgsql
 

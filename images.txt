@@ -131,8 +131,9 @@
 
 
 #### Nacos 
-nacos/nacos-server:v1.4.8
-nacos/nacos-server:v2.3.2
+#nacos/nacos-server:v1.4.8
+nacos/nacos-server:v1.4.2
+#nacos/nacos-server:v2.3.2
 
 ### minio 
 ### pgsql
@@ -177,7 +178,7 @@ nacos/nacos-server:v2.3.2
 
 ### 网页在线vscode
 #linuxserver/code-server:latest
-linuxserver/code-server:version-4.92.2
+#linuxserver/code-server:version-4.92.2
 
 #chenhw2/frp:latest
 #gitea/gitea:latest

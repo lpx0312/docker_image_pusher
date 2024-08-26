@@ -88,6 +88,9 @@
 # gitlab/gitlab-ce:16.11.7-ce.0
 ## gitlab/gitlab-ce:17.2.0-ce.0
 
+### Rancher
+rancher/rancher:stable
+
 
 # ### nexus常用镜像 
 # sonatype/nexus3:3.38.0
@@ -132,7 +135,7 @@
 
 #### Nacos 
 #nacos/nacos-server:v1.4.8
-nacos/nacos-server:1.4.0
+#nacos/nacos-server:1.4.0
 #nacos/nacos-server:v2.3.2
 
 ### minio 

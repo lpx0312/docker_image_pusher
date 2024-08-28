@@ -58,6 +58,7 @@
 # ubuntu:18.04
 # ubuntu:20.04
 # ubuntu:22.04
+ubuntu:24.04
 
 # # Python
 # python:3.6.15
@@ -89,7 +90,7 @@
 ## gitlab/gitlab-ce:17.2.0-ce.0
 
 ### Rancher
-rancher/rancher:stable
+#rancher/rancher:stable
 
 
 # ### nexus常用镜像 

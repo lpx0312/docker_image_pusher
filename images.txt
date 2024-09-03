@@ -58,7 +58,7 @@
 # ubuntu:18.04
 # ubuntu:20.04
 # ubuntu:22.04
-ubuntu:24.04
+# ubuntu:24.04
 
 # # Python
 # python:3.6.15
@@ -90,7 +90,7 @@ ubuntu:24.04
 ## gitlab/gitlab-ce:17.2.0-ce.0
 
 ### Rancher
-#rancher/rancher:stable
+# rancher/rancher:stable
 
 
 # ### nexus常用镜像 
@@ -135,9 +135,9 @@ ubuntu:24.04
 
 
 #### Nacos 
-#nacos/nacos-server:v1.4.8
-#nacos/nacos-server:1.4.0
-#nacos/nacos-server:v2.3.2
+# nacos/nacos-server:v1.4.8
+# nacos/nacos-server:1.4.0
+# nacos/nacos-server:v2.3.2
 
 ### minio 
 ### pgsql
@@ -181,10 +181,9 @@ ubuntu:24.04
 #linuxserver/mods:universal-internationalization 
 
 ### 网页在线vscode
-#linuxserver/code-server:latest
-#linuxserver/code-server:version-4.92.2
+# linuxserver/code-server:latest
+# linuxserver/code-server:version-4.92.2
 
-#chenhw2/frp:latest
 #gitea/gitea:latest
 
 

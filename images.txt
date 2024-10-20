@@ -1,4 +1,7 @@
 ###### 构建环境镜像 ######
+
+###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
+
 # ### node常用镜像
 # node:12.22.10
 # node:14.21.3
@@ -185,6 +188,7 @@
 # snowdreamtech/frps:0.32.1
 # snowdreamtech/frpc:0.32.1
 
+
 ### linux浏览器chrome
 #linuxserver/chromium:latest
 #linuxserver/chromium:version-7cd99b64
@@ -195,6 +199,13 @@
 # linuxserver/code-server:latest
 # linuxserver/code-server:version-4.92.2
 
+### BT下载工具
+linuxserver/qbittorrent:latest
+linuxserver/qbittorrent:5.0.0
+
+
+
+### gitea代码库
 #gitea/gitea:latest
 
 

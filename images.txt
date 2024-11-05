@@ -78,6 +78,7 @@
 # openjdk:17
 
 ### gitlab升级镜像 
+gitlab/gitlab-ce:12.10.11-ce.0
 # gitlab/gitlab-ce:13.10.5-ce.0
 # gitlab/gitlab-ce:13.12.15-ce.0
 # gitlab/gitlab-ce:14.0.12-ce.0
@@ -200,8 +201,8 @@
 # linuxserver/code-server:version-4.92.2
 
 ### BT下载工具
-linuxserver/qbittorrent:latest
-linuxserver/qbittorrent:5.0.0
+#linuxserver/qbittorrent:latest
+#linuxserver/qbittorrent:5.0.0
 
 
 
@@ -217,7 +218,7 @@ linuxserver/qbittorrent:5.0.0
 
 
 
-registry.k8s.io/e2e-test-images/agnhost:2.40
+#registry.k8s.io/e2e-test-images/agnhost:2.40
 
 
 #xhofe/alist:latest

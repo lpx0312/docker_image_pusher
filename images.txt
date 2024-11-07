@@ -93,65 +93,67 @@
 # gitlab/gitlab-ce:16.11.7-ce.0
 ## gitlab/gitlab-ce:17.2.0-ce.0
 
-registry.gitlab.com/gitlab-org/gitlab-docs:15.5
-registry.gitlab.com/gitlab-org/gitlab-docs:15.4
-registry.gitlab.com/gitlab-org/gitlab-docs:15.3
-registry.gitlab.com/gitlab-org/gitlab-docs:15.2
-registry.gitlab.com/gitlab-org/gitlab-docs:15.1
-registry.gitlab.com/gitlab-org/gitlab-docs:15.0
-registry.gitlab.com/gitlab-org/gitlab-docs:14.1
-registry.gitlab.com/gitlab-org/gitlab-docs:14.9
-registry.gitlab.com/gitlab-org/gitlab-docs:14.8
-registry.gitlab.com/gitlab-org/gitlab-docs:14.7
-registry.gitlab.com/gitlab-org/gitlab-docs:14.6
-registry.gitlab.com/gitlab-org/gitlab-docs:14.5
-registry.gitlab.com/gitlab-org/gitlab-docs:14.4
-registry.gitlab.com/gitlab-org/gitlab-docs:14.3
-registry.gitlab.com/gitlab-org/gitlab-docs:14.2
-registry.gitlab.com/gitlab-org/gitlab-docs:14.1
-registry.gitlab.com/gitlab-org/gitlab-docs:14.0
-registry.gitlab.com/gitlab-org/gitlab-docs:13.1
-registry.gitlab.com/gitlab-org/gitlab-docs:13.1
-registry.gitlab.com/gitlab-org/gitlab-docs:13.1
-registry.gitlab.com/gitlab-org/gitlab-docs:13.9
-registry.gitlab.com/gitlab-org/gitlab-docs:13.8
-registry.gitlab.com/gitlab-org/gitlab-docs:13.7
-registry.gitlab.com/gitlab-org/gitlab-docs:13.6
-registry.gitlab.com/gitlab-org/gitlab-docs:13.5
-registry.gitlab.com/gitlab-org/gitlab-docs:13.4
-registry.gitlab.com/gitlab-org/gitlab-docs:13.3
-registry.gitlab.com/gitlab-org/gitlab-docs:13.2
-registry.gitlab.com/gitlab-org/gitlab-docs:13.1
-registry.gitlab.com/gitlab-org/gitlab-docs:13.0
-registry.gitlab.com/gitlab-org/gitlab-docs:12.1
-registry.gitlab.com/gitlab-org/gitlab-docs:12.9
-registry.gitlab.com/gitlab-org/gitlab-docs:12.8
-registry.gitlab.com/gitlab-org/gitlab-docs:12.7
-registry.gitlab.com/gitlab-org/gitlab-docs:12.6
-registry.gitlab.com/gitlab-org/gitlab-docs:12.5
-registry.gitlab.com/gitlab-org/gitlab-docs:12.4
-registry.gitlab.com/gitlab-org/gitlab-docs:12.3
-registry.gitlab.com/gitlab-org/gitlab-docs:12.2
-registry.gitlab.com/gitlab-org/gitlab-docs:12.1
-registry.gitlab.com/gitlab-org/gitlab-docs:12.0
-registry.gitlab.com/gitlab-org/gitlab-docs:11.1
-registry.gitlab.com/gitlab-org/gitlab-docs:11.1
-registry.gitlab.com/gitlab-org/gitlab-docs:11.9
-registry.gitlab.com/gitlab-org/gitlab-docs:11.8
-registry.gitlab.com/gitlab-org/gitlab-docs:11.7
-registry.gitlab.com/gitlab-org/gitlab-docs:11.6
-registry.gitlab.com/gitlab-org/gitlab-docs:11.5
-registry.gitlab.com/gitlab-org/gitlab-docs:11.4
-registry.gitlab.com/gitlab-org/gitlab-docs:11.3
-registry.gitlab.com/gitlab-org/gitlab-docs:11.2
-registry.gitlab.com/gitlab-org/gitlab-docs:11.1
-registry.gitlab.com/gitlab-org/gitlab-docs:11.0
-registry.gitlab.com/gitlab-org/gitlab-docs:10.8
-registry.gitlab.com/gitlab-org/gitlab-docs:10.7
-registry.gitlab.com/gitlab-org/gitlab-docs:10.6
-registry.gitlab.com/gitlab-org/gitlab-docs:10.5
-registry.gitlab.com/gitlab-org/gitlab-docs:10.4
-registry.gitlab.com/gitlab-org/gitlab-docs:10.3
+# gitlab 离线文档 
+# registry.gitlab.com/gitlab-org/gitlab-docs:15.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:15.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:15.3
+# registry.gitlab.com/gitlab-org/gitlab-docs:15.2
+# registry.gitlab.com/gitlab-org/gitlab-docs:15.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:15.0
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.9
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.3
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.2
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:14.0
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.9
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.3
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.2
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.0
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.9
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.3
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.2
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.0
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.9
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.3
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.2
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.0
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.3
+
 
 
 
@@ -216,6 +218,10 @@ registry.gitlab.com/gitlab-org/gitlab-docs:10.3
 
 
 ### minio 
+
+minio/mc:RELEASE.2021-02-14T04-28-06Z
+minio/mc:RELEASE.2020-11-25T23-04-07Z
+
 ### pgsql
 
 ### go

@@ -273,6 +273,8 @@
 #linuxserver/qbittorrent:latest
 #linuxserver/qbittorrent:5.0.0
 
+#### jira
+atlassian/jira-software:8.9.0
 
 
 ### gitea代码库

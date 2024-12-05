@@ -192,7 +192,7 @@
 # nginx:1.26.1
 # nginx:1.27.0
 # ### nginx 正向https代理
- bobbynie/nginx-connect:1.21.1_1681057673
+# bobbynie/nginx-connect:1.21.1_1681057673
 
 ### mysql常用镜像
 # mysql:5.5.62
@@ -278,7 +278,7 @@
 
 #### jira
 # atlassian/jira-software:8.9.0
-
+atlassian/jira-software:9.12
 
 ### gitea代码库
 #gitea/gitea:latest

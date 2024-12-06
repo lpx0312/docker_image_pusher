@@ -287,7 +287,10 @@
 
 ### calibre 电子书网页
 # technosoft2000/calibre-web:v1.6.1
-johngong/calibre-web:0.6.22-7.9.0
+# johngong/calibre-web:0.6.22-7.9.0
+linuxserver/calibre-web:calibre
+
+
 
 #jc21/nginx-proxy-manager:latest
 

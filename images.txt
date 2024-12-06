@@ -278,11 +278,13 @@
 
 #### jira
 # atlassian/jira-software:8.9.0
-atlassian/jira-software:9.12
+# atlassian/jira-software:9.12   用这个可以用 使用许可证
 
 ### gitea代码库
 #gitea/gitea:latest
 
+### calibre 电子书网页
+technosoft2000/calibre-web:v1.6.1
 
 #jc21/nginx-proxy-manager:latest
 

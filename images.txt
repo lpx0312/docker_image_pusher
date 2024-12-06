@@ -92,7 +92,7 @@
 # gitlab/gitlab-ce:16.3.8-ce.0
 # gitlab/gitlab-ce:16.7.9-ce.0
 # gitlab/gitlab-ce:16.11.7-ce.0
-## gitlab/gitlab-ce:17.2.0-ce.0
+# gitlab/gitlab-ce:17.2.0-ce.0
 
 # gitlab 离线文档 
 # registry.gitlab.com/gitlab-org/gitlab-docs:15.5
@@ -191,6 +191,8 @@
 # nginx:1.25.1
 # nginx:1.26.1
 # nginx:1.27.0
+
+
 # ### nginx 正向https代理
 # bobbynie/nginx-connect:1.21.1_1681057673
 
@@ -273,18 +275,19 @@
 # linuxserver/code-server:version-4.92.2
 
 ### BT下载工具
-#linuxserver/qbittorrent:latest
-#linuxserver/qbittorrent:5.0.0
+# linuxserver/qbittorrent:latest
+# linuxserver/qbittorrent:5.0.0
 
 #### jira
 # atlassian/jira-software:8.9.0
 # atlassian/jira-software:9.12   用这个可以用 使用许可证
 
 ### gitea代码库
-#gitea/gitea:latest
+# gitea/gitea:latest
 
 ### calibre 电子书网页
-technosoft2000/calibre-web:v1.6.1
+# technosoft2000/calibre-web:v1.6.1
+johngong/calibre-web:0.6.22-7.9.0
 
 #jc21/nginx-proxy-manager:latest
 

@@ -273,7 +273,7 @@
 ### 网页在线vscode
 # linuxserver/code-server:latest
 # linuxserver/code-server:version-4.92.2
-linuxserver/code-server:version-4.95.3
+# linuxserver/code-server:version-4.95.3
 
 ### BT下载工具
 # linuxserver/qbittorrent:latest
@@ -291,6 +291,9 @@ linuxserver/code-server:version-4.95.3
 # johngong/calibre-web:0.6.22-7.9.0
 # linuxserver/calibre-web:calibre
 
+
+### Mobaxterm trace
+malaohu/mobaxterm-genkey
 
 
 #jc21/nginx-proxy-manager:latest

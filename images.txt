@@ -1,7 +1,8 @@
-###### 构建环境镜像 ######
+###### 构建环境 镜像 ######
 
 ###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
-oceanbase/oceanbase-ce:latest
+
+#oceanbase/oceanbase-ce:latest
 
 # ### node常用镜像
 # node:12.22.10
@@ -248,7 +249,6 @@ oceanbase/oceanbase-ce:latest
 ### rocketmq
 ### kafka
 ### es + logstash + filbeat + logpoilt
-### nginx 
 ### zk
 ### nacos 
 
@@ -292,11 +292,11 @@ oceanbase/oceanbase-ce:latest
 # linuxserver/calibre-web:calibre
 
 
-### Mobaxterm trace
+### Mobaxterm 激活工具
 # malaohu/mobaxterm-genkey
 
 
-
+### Nginx 管理工具 
 #jc21/nginx-proxy-manager:latest
 
 

@@ -1,7 +1,7 @@
 ###### 构建环境镜像 ######
 
 ###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
-
+oceanbase/oceanbase-ce:latest
 
 # ### node常用镜像
 # node:12.22.10
@@ -293,7 +293,8 @@
 
 
 ### Mobaxterm trace
-malaohu/mobaxterm-genkey
+# malaohu/mobaxterm-genkey
+
 
 
 #jc21/nginx-proxy-manager:latest

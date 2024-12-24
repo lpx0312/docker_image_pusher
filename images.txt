@@ -2,7 +2,7 @@
 
 ###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
 
-#oceanbase/oceanbase-ce:latest
+oceanbase/oceanbase-ce:4.3.4.0-100000162024110717
 
 # ### node常用镜像
 # node:12.22.10

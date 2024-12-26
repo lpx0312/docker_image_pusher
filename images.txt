@@ -4,6 +4,10 @@
 
 # oceanbase/oceanbase-ce:4.3.4.0-100000162024110717
 
+
+# ### debian
+debian:12.8
+
 # ### node常用镜像
 # node:12.22.10
 # node:14.21.3
@@ -289,7 +293,7 @@
 ### calibre 电子书网页
 # technosoft2000/calibre-web:v1.6.1
 # johngong/calibre-web:0.6.22-7.9.0
-johngong/calibre-web:0.6.24-7.9.0
+# johngong/calibre-web:0.6.24-7.9.0
 # linuxserver/calibre-web:calibre
 
 

@@ -6,7 +6,8 @@
 
 
 # ### debian
-debian:12.8
+# debian:12.8
+debian:bookworm-slim
 
 # ### node常用镜像
 # node:12.22.10

@@ -9,7 +9,8 @@
 # debian:12.8
 # debian:11.8
 # debian:10.13
-debian:9.13
+# debian:9.13
+debian:8.11
 # debian:bookworm-slim
 # debian:bookworm-20241223-slim
 

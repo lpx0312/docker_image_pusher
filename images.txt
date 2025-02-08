@@ -229,9 +229,16 @@ debian:7.11
 # nacos/nacos-server:v2.1.2
 # nacos/nacos-server:v2.4.0
 
+## nacos-mysql
+nacos/nacos-mysql:5.7
+prom/prometheus:latest
+grafana/grafana:latest
+
+
 ## nacos-operater
 # nacos/nacos-operator:v1.0.1
 # nacos/nacos-operator:v1.0.0
+
 
 
 ### minio 

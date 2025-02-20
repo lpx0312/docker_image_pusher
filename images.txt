@@ -5,7 +5,7 @@
 # oceanbase/oceanbase-ce:4.3.4.0-100000162024110717
 
 # ### 流量监控
-mitmproxy/mitmproxy:11.1.2
+# mitmproxy/mitmproxy:11.1.2
 
 # ### debian
 # debian:12.8
@@ -43,10 +43,12 @@ mitmproxy/mitmproxy:11.1.2
 # maven:3.9.5-eclipse-temurin-8-focal
 # maven:3.9.4-eclipse-temurin-8-focal
 # maven:3.8.8-eclipse-temurin-8-focal
+maven:3.8.8-eclipse-temurin-17-focal
 # maven:3.6.3-jdk-8
 # maven:3.5.4-jdk-8
 # maven:3.3.9-jdk-8
 # maven:3.9.8-eclipse-temurin-8
+
 
 
 
@@ -91,6 +93,11 @@ mitmproxy/mitmproxy:11.1.2
 # openjdk:8
 # openjdk:11
 # openjdk:17
+
+sapmachine:17
+
+
+
 
 ### gitlab升级镜像 
 # gitlab/gitlab-ce:12.10.11-ce.0

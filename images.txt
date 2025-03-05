@@ -215,7 +215,7 @@
 # nginx:1.27.0
 --platform=linux/arm64 nginx:1.25.1
 --platform=linux/arm64 nginx:1.26.1
---platform=linux/arm64 nginx:11.27.0
+--platform=linux/arm64 nginx:1.27.0
 
 
 

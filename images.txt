@@ -52,30 +52,31 @@
 # debian:bookworm-slim
 # debian:bookworm-20241223-slim
 
-
 ##### CentOS 系统镜像 #####
-centos:7.0.1406
-centos:7.1.1503
-centos:7.2.1511
-centos:7.3.1611
-centos:7.4.1708
-centos:7.5.1804
-centos:7.6.1810
-centos:7.7.1908
-centos:7.8.2003
-centos:7.9.2009
-centos:7
-centos:centos7
-centos:centos7.9.2009
+# centos:7.0.1406
+# centos:7.1.1503
+# centos:7.2.1511
+# centos:7.3.1611
+# centos:7.4.1708
+# centos:7.5.1804
+# centos:7.6.1810
+# centos:7.7.1908
+# centos:7.8.2003
+# centos:7.9.2009
+# centos:7
+# centos:centos7
+# centos:centos7.9.2009
+# centos:8 
+# centos:centos8
+# centos:8.4.2105
+# centos:6 
+# centos:centos6
+# centos:6.10
 
-centos:8 
-centos:centos8
-centos:8.4.2105
-
-centos:6 
-centos:centos6
-centos:6.10
-
+##### openeuler 系统镜像 #####
+openeuler/openeuler:24.03-lts
+openeuler/openeuler:22.03-lts-sp4
+openeuler/openeuler:20.03-lts-sp4
 
 
 ################################# 构建镜像 #################################

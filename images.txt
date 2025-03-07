@@ -1,3 +1,89 @@
+#################################  系统镜像  #################################
+##### ubuntu 系统镜像 #####
+# ubuntu:16.04
+# ubuntu:xenial
+# ubuntu:xenial-20210804
+# 
+# ubuntu:18.04
+# ubuntu:bionic
+# ubuntu:bionic-20230530
+# 
+# ubuntu:20.04
+# ubuntu:focal
+# ubuntu:focal-20241011
+# 
+# ubuntu:22.04
+# ubuntu:jammy
+# ubuntu:jammy-20250126
+# 
+# ubuntu:24.04
+# ubuntu:noble
+# ubuntu:noble-20250127
+
+##### debian 系统镜像 #####
+debian:bookworm
+debian:12.9
+debian:bookworm-20250224
+debian:12.8
+debian:bookworm-20241223
+
+debian:bullseye
+debian:11.11
+debian:bullseye-20250224
+debian:11.8
+debian:bullseye-20240130
+
+debian:buster
+debian:10.13
+debian:buster-20240612
+
+debian:stretch
+debian:9.13
+debian:stretch-20220622
+
+debian:jessie
+debian:8.11
+debian:jessie-20210326
+
+debian:wheezy
+debian:7.11
+debian:wheezy-20190228
+
+# debian:bookworm-slim
+# debian:bookworm-20241223-slim
+
+################################# 构建镜像 #################################
+##### node常用镜像 #####
+# node:12.22.10
+# node:12.22.10-stretch
+# node:12.22.10-bullseye
+# 
+# node:14.21.3
+# node:14.21.3-buster
+# node:14.21.3-bullseye
+# 
+# node:16.20.2
+# node:16.20.2-buster
+# node:16.20.2-bullseye
+# node:16.20.2-bookworm
+# 
+# node:18.19.0
+# node:18.19.0-buster
+# node:18.19.0-bullseye
+# node:18.19.0-bookworm
+# 
+# node:20.11.1
+# node:20.11.1-buster
+# node:20.11.1-bullseye
+# node:20.11.1-bookworm
+# 
+# node:22.5.1
+# node:22.5.1-bullseye
+# node:22.5.1-bookworm
+
+
+
+
 ###### 构建环境 镜像 ######
 
 ###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
@@ -7,43 +93,8 @@
 # ### 流量监控
 # mitmproxy/mitmproxy:11.1.2
 
-# ### debian
-# debian:12.8
-# debian:11.8
-# debian:10.13
-# debian:9.13
-# debian:8.11
-# debian:7.11
-# debian:bookworm-slim
-# debian:bookworm-20241223-slim
 
-# ### node常用镜像
-node:12.22.10
-node:12.22.10-stretch
-node:12.22.10-bullseye
 
-node:14.21.3
-node:14.21.3-buster
-node:14.21.3-bullseye
-
-node:16.20.2
-node:16.20.2-buster
-node:16.20.2-bullseye
-node:16.20.2-bookworm
-
-node:18.19.0
-node:18.19.0-buster
-node:18.19.0-bullseye
-node:18.19.0-bookworm
-
-node:20.11.1
-node:20.11.1-buster
-node:20.11.1-bullseye
-node:20.11.1-bookworm
-
-node:22.5.1
-node:22.5.1-bullseye
-node:22.5.1-bookworm
 
 
 # ### maven常用镜像
@@ -91,26 +142,7 @@ node:22.5.1-bookworm
 # centos:7.8.2003
 # centos:7.9.2009
 
-# ubuntu 系统镜像 
-# ubuntu:16.04
-# ubuntu:xenial
-# ubuntu:xenial-20210804
-# 
-# ubuntu:18.04
-# ubuntu:bionic
-# ubuntu:bionic-20230530
-# 
-# ubuntu:20.04
-# ubuntu:focal
-# ubuntu:focal-20241011
-# 
-# ubuntu:22.04
-# ubuntu:jammy
-# ubuntu:jammy-20250126
-# 
-# ubuntu:24.04
-# ubuntu:noble
-# ubuntu:noble-20250127
+
 
 # # Python
 # python:3.6.15

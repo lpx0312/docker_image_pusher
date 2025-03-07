@@ -20,37 +20,63 @@
 # ubuntu:noble
 # ubuntu:noble-20250127
 
+
 ##### debian 系统镜像 #####
-debian:bookworm
-debian:12.9
-debian:bookworm-20250224
-debian:12.8
-debian:bookworm-20241223
-
-debian:bullseye
-debian:11.11
-debian:bullseye-20250224
-debian:11.8
-debian:bullseye-20240130
-
-debian:buster
-debian:10.13
-debian:buster-20240612
-
-debian:stretch
-debian:9.13
-debian:stretch-20220622
-
-debian:jessie
-debian:8.11
-debian:jessie-20210326
-
-debian:wheezy
-debian:7.11
-debian:wheezy-20190228
-
+# debian:bookworm
+# debian:12.9
+# debian:bookworm-20250224
+# debian:12.8
+# debian:bookworm-20241223
+# 
+# debian:bullseye
+# debian:11.11
+# debian:bullseye-20250224
+# debian:11.8
+# debian:bullseye-20240130
+# 
+# debian:buster
+# debian:10.13
+# debian:buster-20240612
+# 
+# debian:stretch
+# debian:9.13
+# debian:stretch-20220622
+# 
+# debian:jessie
+# debian:8.11
+# debian:jessie-20210326
+# 
+# debian:wheezy
+# debian:7.11
+# debian:wheezy-20190228
 # debian:bookworm-slim
 # debian:bookworm-20241223-slim
+
+
+##### CentOS 系统镜像 #####
+centos:7.0.1406
+centos:7.1.1503
+centos:7.2.1511
+centos:7.3.1611
+centos:7.4.1708
+centos:7.5.1804
+centos:7.6.1810
+centos:7.7.1908
+centos:7.8.2003
+centos:7.9.2009
+centos:7
+centos:centos7
+centos:centos7.9.2009
+
+centos:8 
+centos:centos8
+centos:8.4.2105
+
+centos:6 
+centos:centos6
+centos:6.10
+
+
 
 ################################# 构建镜像 #################################
 ##### node常用镜像 #####
@@ -129,18 +155,7 @@ debian:wheezy-20190228
 # gradle:7.6.4
 # gradle:8.9.0
 
-### 基础环境镜像
-# CentOS
-# centos:7.0.1406
-# centos:7.1.1503
-# centos:7.2.1511
-# centos:7.3.1611
-# centos:7.4.1708
-# centos:7.5.1804
-# centos:7.6.1810
-# centos:7.7.1908
-# centos:7.8.2003
-# centos:7.9.2009
+
 
 
 

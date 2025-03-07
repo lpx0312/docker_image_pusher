@@ -72,18 +72,23 @@
 
 # Ubuntu
 ubuntu:16.04
+ubuntu:xenial
 ubuntu:xenial-20210804
 
 ubuntu:18.04
+ubuntu:bionic
 ubuntu:bionic-20230530
 
 ubuntu:20.04
+ubuntu:focal
 ubuntu:focal-20241011
 
 ubuntu:22.04
+ubuntu:jammy
 ubuntu:jammy-20250126
 
 ubuntu:24.04
+ubuntu:noble
 ubuntu:noble-20250127
 
 # # Python

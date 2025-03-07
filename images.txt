@@ -76,10 +76,10 @@
 # centos:centos6
 # centos:6.10
 
-##### openeuler 系统镜像 #####
-openeuler/openeuler:24.03-lts
-openeuler/openeuler:22.03-lts-sp4
-openeuler/openeuler:20.03-lts-sp4
+# ##### openeuler 系统镜像 #####
+# openeuler/openeuler:24.03-lts
+# openeuler/openeuler:22.03-lts-sp4
+# openeuler/openeuler:20.03-lts-sp4
 
 
 ################################# 构建镜像 #################################

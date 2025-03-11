@@ -629,7 +629,8 @@ nacos/nacos-server:v2.5.1
 # snowdreamtech/frps:latest
 # snowdreamtech/frps:0.32.1
 # snowdreamtech/frpc:0.32.1
-
+--platform=linux/arm64 snowdreamtech/frps:0.32.1
+--platform=linux/arm64 snowdreamtech/frpc:0.32.1
 
 ### linux浏览器chrome
 #linuxserver/chromium:latest

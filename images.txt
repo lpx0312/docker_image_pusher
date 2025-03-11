@@ -73,42 +73,43 @@
 # debian:bookworm-20241223-slim
 
 ##### ARM64
---platform=linux/arm64 debian:bookworm
---platform=linux/arm64 debian:12.9
---platform=linux/arm64 debian:bookworm-20250224
---platform=linux/arm64 debian:12.8
---platform=linux/arm64 debian:bookworm-20241223
+# --platform=linux/arm64 debian:bookworm
+# --platform=linux/arm64 debian:12.9
+# --platform=linux/arm64 debian:bookworm-20250224
+# --platform=linux/arm64 debian:12.8
+# --platform=linux/arm64 debian:bookworm-20241223
+# 
+# 
+# --platform=linux/arm64 debian:bullseye
+# --platform=linux/arm64 debian:11.11
+# --platform=linux/arm64 debian:bullseye-20250224
+# --platform=linux/arm64 debian:11.8
+# --platform=linux/arm64 debian:bullseye-20240130
+# 
+# 
+# --platform=linux/arm64 debian:buster
+# --platform=linux/arm64 debian:10.13
+# --platform=linux/arm64 debian:buster-20240612
+# 
+# 
+# --platform=linux/arm64 debian:stretch
+# --platform=linux/arm64 debian:9.13
+# --platform=linux/arm64 debian:stretch-20220622
+# 
+# 
+# --platform=linux/arm64 debian:jessie
+# --platform=linux/arm64 debian:8.11
+# --platform=linux/arm64 debian:jessie-20210326
+# 
+# 
+# --platform=linux/arm64 debian:wheezy
+# --platform=linux/arm64 debian:7.11
+# --platform=linux/arm64 debian:wheezy-20190228
+# --platform=linux/arm64 debian:bookworm-slim
+# --platform=linux/arm64 debian:bookworm-20241223-slim
+# 
 
-
---platform=linux/arm64 debian:bullseye
---platform=linux/arm64 debian:11.11
---platform=linux/arm64 debian:bullseye-20250224
---platform=linux/arm64 debian:11.8
---platform=linux/arm64 debian:bullseye-20240130
-
-
---platform=linux/arm64 debian:buster
---platform=linux/arm64 debian:10.13
---platform=linux/arm64 debian:buster-20240612
-
-
---platform=linux/arm64 debian:stretch
---platform=linux/arm64 debian:9.13
---platform=linux/arm64 debian:stretch-20220622
-
-
---platform=linux/arm64 debian:jessie
---platform=linux/arm64 debian:8.11
---platform=linux/arm64 debian:jessie-20210326
-
-
---platform=linux/arm64 debian:wheezy
---platform=linux/arm64 debian:7.11
---platform=linux/arm64 debian:wheezy-20190228
---platform=linux/arm64 debian:bookworm-slim
---platform=linux/arm64 debian:bookworm-20241223-slim
-
-
+--platform=linux/arm/v5 debian:8.11
 
 ##### CentOS 系统镜像 #####
 # centos:7.0.1406

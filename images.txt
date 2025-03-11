@@ -79,35 +79,31 @@
 # --platform=linux/arm64 debian:bookworm-20250224
 # --platform=linux/arm64 debian:12.8
 # --platform=linux/arm64 debian:bookworm-20241223
-# 
-# 
+
 # --platform=linux/arm64 debian:bullseye
 # --platform=linux/arm64 debian:11.11
 # --platform=linux/arm64 debian:bullseye-20250224
 # --platform=linux/arm64 debian:11.8
 # --platform=linux/arm64 debian:bullseye-20240130
-# 
-# 
+
 # --platform=linux/arm64 debian:buster
 # --platform=linux/arm64 debian:10.13
 # --platform=linux/arm64 debian:buster-20240612
-# 
-# 
+
 # --platform=linux/arm64 debian:stretch
 # --platform=linux/arm64 debian:9.13
 # --platform=linux/arm64 debian:stretch-20220622
-# 
+
 # # arm的8.11 官方镜像有问题，根本用不了
 # --platform=linux/arm64 debian:jessie
 # --platform=linux/arm64 debian:8.11
 # --platform=linux/arm64 debian:jessie-20210326
-# 
+
 # --platform=linux/arm64 debian:wheezy
 # --platform=linux/arm64 debian:7.11
 # --platform=linux/arm64 debian:wheezy-20190228
 # --platform=linux/arm64 debian:bookworm-slim
 # --platform=linux/arm64 debian:bookworm-20241223-slim
-
 
 ##### CentOS 系统镜像 #####
 # centos:7.0.1406
@@ -149,7 +145,6 @@
 # --platform=linux/arm64 openeuler/openeuler:24.03-lts
 # --platform=linux/arm64 openeuler/openeuler:22.03-lts-sp4
 # --platform=linux/arm64 openeuler/openeuler:20.03-lts-sp4
-
 
 ################################# 构建镜像 #################################
 ##### node常用镜像 #####
@@ -296,36 +291,35 @@
 # gradle:4.5.1  没有arm
 # gradle:5.6.4  没有arm
 
-
---platform=linux/arm64 gradle:6.9.4
---platform=linux/arm64 gradle:6.9.4-jdk-jammy
---platform=linux/arm64 gradle:6.9.4-jdk8-jammy
---platform=linux/arm64 gradle:6.9.4-jdk8-focal
---platform=linux/arm64 gradle:6.9.4-jdk11-corretto
---platform=linux/arm64 gradle:6.9.4-jdk17-corretto
-
---platform=linux/arm64 gradle:7.6.4
---platform=linux/arm64 gradle:7.6.4-jdk8-focal
---platform=linux/arm64 gradle:7.6.4-jdk8-corretto
---platform=linux/arm64 gradle:7.6.4-jdk11-focal
---platform=linux/arm64 gradle:7.6.4-jdk11-corretto
---platform=linux/arm64 gradle:7.6.4-jdk17-focal
---platform=linux/arm64 gradle:7.6.4-jdk17-jammy
-
-
---platform=linux/arm64 gradle:8.13.0
---platform=linux/arm64 gradle:8.13-jdk8
---platform=linux/arm64 gradle:8.13-jdk8-focal
---platform=linux/arm64 gradle:8.13-jdk8-corretto
---platform=linux/arm64 gradle:8.13-jdk11-focal
---platform=linux/arm64 gradle:8.13-jdk11-corretto
---platform=linux/arm64 gradle:8.13-jdk17-focal
---platform=linux/arm64 gradle:8.13-jdk17-jammy
---platform=linux/arm64 gradle:8.13-jdk17-corretto
---platform=linux/arm64 gradle:8.13-jdk21-jammy
---platform=linux/arm64 gradle:8.13-jdk21-corretto
---platform=linux/arm64 gradle:8.13-jdk23-alpine
---platform=linux/arm64 gradle:8.13-jdk23-corretto
+# --platform=linux/arm64 gradle:6.9.4
+# --platform=linux/arm64 gradle:6.9.4-jdk-jammy
+# --platform=linux/arm64 gradle:6.9.4-jdk8-jammy
+# --platform=linux/arm64 gradle:6.9.4-jdk8-focal
+# --platform=linux/arm64 gradle:6.9.4-jdk11-corretto
+# --platform=linux/arm64 gradle:6.9.4-jdk17-corretto
+# 
+# --platform=linux/arm64 gradle:7.6.4
+# --platform=linux/arm64 gradle:7.6.4-jdk8-focal
+# --platform=linux/arm64 gradle:7.6.4-jdk8-corretto
+# --platform=linux/arm64 gradle:7.6.4-jdk11-focal
+# --platform=linux/arm64 gradle:7.6.4-jdk11-corretto
+# --platform=linux/arm64 gradle:7.6.4-jdk17-focal
+# --platform=linux/arm64 gradle:7.6.4-jdk17-jammy
+# 
+# 
+# --platform=linux/arm64 gradle:8.13.0
+# --platform=linux/arm64 gradle:8.13-jdk8
+# --platform=linux/arm64 gradle:8.13-jdk8-focal
+# --platform=linux/arm64 gradle:8.13-jdk8-corretto
+# --platform=linux/arm64 gradle:8.13-jdk11-focal
+# --platform=linux/arm64 gradle:8.13-jdk11-corretto
+# --platform=linux/arm64 gradle:8.13-jdk17-focal
+# --platform=linux/arm64 gradle:8.13-jdk17-jammy
+# --platform=linux/arm64 gradle:8.13-jdk17-corretto
+# --platform=linux/arm64 gradle:8.13-jdk21-jammy
+# --platform=linux/arm64 gradle:8.13-jdk21-corretto
+# --platform=linux/arm64 gradle:8.13-jdk23-alpine
+# --platform=linux/arm64 gradle:8.13-jdk23-corretto
 
 
 # ##### Python 常用镜像 #####
@@ -337,22 +331,17 @@
 # python:3.11.9
 
 # ##### Python ARM常用镜像 #####
---platform=linux/arm64 python:3.6.15
---platform=linux/arm64 python:3.7.17
---platform=linux/arm64 python:3.8.19
---platform=linux/arm64 python:3.9.19
---platform=linux/arm64 python:3.10.14
---platform=linux/arm64 python:3.11.9
-
-
-
+# --platform=linux/arm64 python:3.6.15
+# --platform=linux/arm64 python:3.7.17
+# --platform=linux/arm64 python:3.8.19
+# --platform=linux/arm64 python:3.9.19
+# --platform=linux/arm64 python:3.10.14
+# --platform=linux/arm64 python:3.11.9
 
 # oceanbase/oceanbase-ce:4.3.4.0-100000162024110717
 
 # ### 流量监控
 # mitmproxy/mitmproxy:11.1.2
-
-
 
 # ### java常用镜像， 后续需要细化
 # openjdk:8
@@ -368,8 +357,6 @@
 # 14.0.12-ce.0
 # 14.3.6-ce.0
 # 14.9.5-ce.0
-# 
-
 
 # gitlab/gitlab-ce:12.10.11-ce.0
 # gitlab/gitlab-ce:13.10.5-ce.0
@@ -456,6 +443,24 @@
 # sonatype/nexus3:3.45.0
 # sonatype/nexus3:3.49.0
 # sonatype/nexus3:3.70.1
+# 上面的nexus3版本都没有arm版本的镜像
+# 从3.78.0开始才有arm版本的
+sonatype/nexus3:3.78.0
+sonatype/nexus3:3.78.0-ubi
+sonatype/nexus3:3.78.0-java17-ubi
+sonatype/nexus3:3.78.1
+sonatype/nexus3:3.78.1-ubi
+sonatype/nexus3:3.78.1-java17-ubi
+
+# ### nexus ARM 常用镜像 ### #
+--platform=linux/arm64 sonatype/nexus3:3.78.0
+--platform=linux/arm64 sonatype/nexus3:3.78.0-ubi
+--platform=linux/arm64 sonatype/nexus3:3.78.0-java17-ubi
+--platform=linux/arm64 sonatype/nexus3:3.78.1
+--platform=linux/arm64 sonatype/nexus3:3.78.1-ubi
+--platform=linux/arm64 sonatype/nexus3:3.78.1-java17-ubi
+
+
 
 ### redis常用镜像
 # redis:3.2.12
@@ -465,6 +470,15 @@
 # redis:6.2.6
 # redis:7.0.0
 # redis:7.0.8
+
+### redis ARM常用镜像 ###
+--platform=linux/arm64 redis:3.2.12
+--platform=linux/arm64 redis:4.0.14
+--platform=linux/arm64 redis:5.0.10
+--platform=linux/arm64 redis:6.0.9
+--platform=linux/arm64 redis:6.2.6
+--platform=linux/arm64 redis:7.0.0
+--platform=linux/arm64 redis:7.0.8
 
 ### nginx常用镜像
 # # nginx:1.8.1 镜像版本太老使用V1格式，无法拉取了
@@ -478,34 +492,87 @@
 # nginx:1.25.1
 # nginx:1.26.1
 # nginx:1.27.0
-#--platform=linux/arm64 nginx:1.25.1
-#--platform=linux/arm64 nginx:1.26.1
-#--platform=linux/arm64 nginx:1.27.0
+
+### nginx ARM常用镜像 ###
+--platform=linux/arm64 nginx:1.14.2
+--platform=linux/arm64 nginx:1.16.1
+--platform=linux/arm64 nginx:1.18.0
+--platform=linux/arm64 nginx:1.20.2
+--platform=linux/arm64 nginx:1.22.1
+--platform=linux/arm64 nginx:1.24.0
+--platform=linux/arm64 nginx:1.25.1
+--platform=linux/arm64 nginx:1.26.1
+--platform=linux/arm64 nginx:1.27.0
 
 # ### nginx 正向https代理
 # bobbynie/nginx-connect:1.21.1_1681057673
 
-### mysql常用镜像
+### mysql常用镜像 ####
 # mysql:5.5.62
 # mysql:5.6.51
 # mysql:5.7.35
 # mysql:8.0.11
 # mysql:8.0.25
+# 上面低版本mysql没有官方arm镜像
 # mysql:8.0.31
 # mysql:8.0.39
 # mysql:8.4.2
 # mysql:9.0.1
 
+### mysql ARM 常用镜像 ####
+--platform=linux/arm64 mysql:8.0.31
+--platform=linux/arm64 mysql:8.0.39
+--platform=linux/arm64 mysql:8.4.2
+--platform=linux/arm64 mysql:9.0.1
 
-#### Nacos 
+
+### mariadb 常用镜像 ####
+mariadb:5.5.64
+# 对应5.6
+mariadb:10.0.38
+mariadb:10.1.48
+# 对应5.7
+mariadb:10.2.44
+mariadb:10.3.39
+# 对应8.0
+mariadb:10.4.34
+mariadb:10.5.28
+mariadb:10.6.21
+mariadb:10.11.11
+
+### mariadb ARM常用镜像 ####
+# 对应5.6
+--platform=linux/arm64 mariadb:10.0.38
+--platform=linux/arm64 mariadb:10.1.48
+# 对应5.7
+--platform=linux/arm64 mariadb:10.2.44
+--platform=linux/arm64 mariadb:10.3.39
+# 对应8.0
+--platform=linux/arm64 mariadb:10.4.34
+--platform=linux/arm64 mariadb:10.5.28
+--platform=linux/arm64 mariadb:10.6.21
+--platform=linux/arm64 mariadb:10.11.11
+
+#### Nacos X86 ####
 # nacos/nacos-server:v1.4.8
-# nacos/nacos-server:1.4.0
-# nacos/nacos-server:1.4.1
-# nacos/nacos-server:v2.0.3
-# nacos/nacos-server:v2.3.2
-# nacos/nacos-server:v2.2.0
-# nacos/nacos-server:v2.1.2
-# nacos/nacos-server:v2.4.0
+# nacos/nacos-server:1.4.0 #没有arm
+# nacos/nacos-server:1.4.1 #没有arm
+# nacos/nacos-server:v2.0.3 #没有arm
+# nacos/nacos-server:v2.3.2 #没有arm
+# nacos/nacos-server:v2.2.0 #没有arm
+# nacos/nacos-server:v2.1.2 #没有arm
+# nacos/nacos-server:v2.4.0 
+nacos/nacos-server:v2.4.2
+nacos/nacos-server:v2.4.3
+nacos/nacos-server:v2.5.0
+nacos/nacos-server:v2.5.1
+
+#### Nacos ARM ####
+--platform=linux/arm64 nacos/nacos-server:v2.4.0 
+--platform=linux/arm64 nacos/nacos-server:v2.4.2
+--platform=linux/arm64 nacos/nacos-server:v2.4.3
+--platform=linux/arm64 nacos/nacos-server:v2.5.0
+--platform=linux/arm64 nacos/nacos-server:v2.5.1
 
 ## nacos-mysql
 # nacos/nacos-mysql:5.7
@@ -517,12 +584,16 @@
 # nacos/nacos-operator:v1.0.1
 # nacos/nacos-operator:v1.0.0
 
+--platform=linux/arm64 nacos/nacos-operator:v1.0.1
+--platform=linux/arm64 nacos/nacos-operator:v1.0.0
 
 
-### minio 
-
+### minio
 # minio/mc:RELEASE.2021-02-14T04-28-06Z
 # minio/mc:RELEASE.2020-11-25T23-04-07Z
+
+--platform=linux/arm64 minio/mc:RELEASE.2021-02-14T04-28-06Z
+--platform=linux/arm64 minio/mc:RELEASE.2020-11-25T23-04-07Z
 
 ### pgsql
 

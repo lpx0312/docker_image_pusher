@@ -584,15 +584,15 @@
 # nacos/nacos-operator:v1.0.1
 # nacos/nacos-operator:v1.0.0
 
---platform=linux/arm64 nacos/nacos-operator:v1.0.1
+# --platform=linux/arm64 nacos/nacos-operator:v1.0.1
 
 
 ### minio
 # minio/mc:RELEASE.2021-02-14T04-28-06Z
 # minio/mc:RELEASE.2020-11-25T23-04-07Z
 
---platform=linux/arm64 minio/mc:RELEASE.2021-02-14T04-28-06Z
---platform=linux/arm64 minio/mc:RELEASE.2020-11-25T23-04-07Z
+# --platform=linux/arm64 minio/mc:RELEASE.2021-02-14T04-28-06Z
+# --platform=linux/arm64 minio/mc:RELEASE.2020-11-25T23-04-07Z
 
 ### pgsql
 
@@ -628,8 +628,8 @@
 # snowdreamtech/frps:latest
 # snowdreamtech/frps:0.32.1
 # snowdreamtech/frpc:0.32.1
---platform=linux/arm64 snowdreamtech/frps:0.32.1
---platform=linux/arm64 snowdreamtech/frpc:0.32.1
+# --platform=linux/arm64 snowdreamtech/frps:0.32.1
+# --platform=linux/arm64 snowdreamtech/frpc:0.32.1
 
 ### linux浏览器chrome
 #linuxserver/chromium:latest

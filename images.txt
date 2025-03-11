@@ -214,40 +214,40 @@
 # 
 # --platform=linux/arm64 maven:3.6.3
 # # maven:3.6.3-jdk-8 没有arm版本
---platform=linux/arm64 maven:3.6.3-jdk-11
---platform=linux/arm64 maven:3.6.3-openjdk-15
---platform=linux/arm64 maven:3.6.3-openjdk-16
---platform=linux/arm64 maven:3.6.3-openjdk-17
-
---platform=linux/arm64 maven:3.8.8
---platform=linux/arm64 maven:3.8.8-eclipse-temurin-8-focal
---platform=linux/arm64 maven:3.8.8-eclipse-temurin-11-focal
---platform=linux/arm64 maven:3.8.8-eclipse-temurin-17-focal
---platform=linux/arm64 maven:3.8.8-eclipse-temurin-21
-
---platform=linux/arm64 maven:3.9.4
---platform=linux/arm64 maven:3.9.4-eclipse-temurin-8-focal
---platform=linux/arm64 maven:3.9.4-eclipse-temurin-11-focal
---platform=linux/arm64 maven:3.9.4-eclipse-temurin-17-focal
---platform=linux/arm64 maven:3.9.4-eclipse-temurin-21
-
---platform=linux/arm64 maven:3.9.5
---platform=linux/arm64 maven:3.9.6
---platform=linux/arm64 maven:3.9.7
---platform=linux/arm64 maven:3.9.8
---platform=linux/arm64 maven:3.9.8-eclipse-temurin-8-focal
---platform=linux/arm64 maven:3.9.7-eclipse-temurin-8-focal
---platform=linux/arm64 maven:3.9.6-eclipse-temurin-8-focal
---platform=linux/arm64 maven:3.9.5-eclipse-temurin-8-focal
---platform=linux/arm64 maven:3.9.4-eclipse-temurin-8-focal
---platform=linux/arm64 maven:3.8.5-openjdk-17
---platform=linux/arm64 maven:3.9.8-eclipse-temurin-8
+# --platform=linux/arm64 maven:3.6.3-jdk-11
+# --platform=linux/arm64 maven:3.6.3-openjdk-15
+# --platform=linux/arm64 maven:3.6.3-openjdk-16
+# --platform=linux/arm64 maven:3.6.3-openjdk-17
+# 
+# --platform=linux/arm64 maven:3.8.8
+# --platform=linux/arm64 maven:3.8.8-eclipse-temurin-8-focal
+# --platform=linux/arm64 maven:3.8.8-eclipse-temurin-11-focal
+# --platform=linux/arm64 maven:3.8.8-eclipse-temurin-17-focal
+# --platform=linux/arm64 maven:3.8.8-eclipse-temurin-21
+# 
+# --platform=linux/arm64 maven:3.9.4
+# --platform=linux/arm64 maven:3.9.4-eclipse-temurin-8-focal
+# --platform=linux/arm64 maven:3.9.4-eclipse-temurin-11-focal
+# --platform=linux/arm64 maven:3.9.4-eclipse-temurin-17-focal
+# --platform=linux/arm64 maven:3.9.4-eclipse-temurin-21
+# 
+# --platform=linux/arm64 maven:3.9.5
+# --platform=linux/arm64 maven:3.9.6
+# --platform=linux/arm64 maven:3.9.7
+# --platform=linux/arm64 maven:3.9.8
+# --platform=linux/arm64 maven:3.9.8-eclipse-temurin-8-focal
+# --platform=linux/arm64 maven:3.9.7-eclipse-temurin-8-focal
+# --platform=linux/arm64 maven:3.9.6-eclipse-temurin-8-focal
+# --platform=linux/arm64 maven:3.9.5-eclipse-temurin-8-focal
+# --platform=linux/arm64 maven:3.9.4-eclipse-temurin-8-focal
+# --platform=linux/arm64 maven:3.8.5-openjdk-17
+# --platform=linux/arm64 maven:3.9.8-eclipse-temurin-8
 
 # ##### gradle 常用镜像 #####
-
-gradle:4.10.2
-gradle:4.10.2-jdk8
-gradle:4.10.2-jdk11
+ 
+# gradle:4.10.2
+# gradle:4.10.2-jdk8
+# gradle:4.10.2-jdk11
 
 # gradle:4.5.1 
 # gradle:4.5.1-jdk7
@@ -293,10 +293,7 @@ gradle:4.10.2-jdk11
 --platform=linux/arm64 gradle:4.10.2-jdk8
 --platform=linux/arm64 gradle:4.10.2-jdk11
 
---platform=linux/arm64 gradle:4.5.1 
---platform=linux/arm64 gradle:4.5.1-jdk7
---platform=linux/arm64 gradle:4.5.1-jdk8
---platform=linux/arm64 gradle:4.5.1-jdk9
+# gradle:4.5.1  都没有arm
 
 --platform=linux/arm64 gradle:5.6.4
 --platform=linux/arm64 gradle:5.6.4-jdk8

@@ -131,14 +131,14 @@
 # centos:6.10
 
 ##### CentOS ARM系统镜像 #####
-# centos7的其他版本，以及centos6都没有arm版本
---platform=linux/arm64 centos:7.9.2009
---platform=linux/arm64 centos:7
---platform=linux/arm64 centos:centos7
---platform=linux/arm64 centos:centos7.9.2009
---platform=linux/arm64 centos:8
---platform=linux/arm64 centos:centos8
---platform=linux/arm64 centos:8.4.2105
+# # centos7的其他版本，以及centos6都没有arm版本
+# --platform=linux/arm64 centos:7.9.2009
+# --platform=linux/arm64 centos:7
+# --platform=linux/arm64 centos:centos7
+# --platform=linux/arm64 centos:centos7.9.2009
+# --platform=linux/arm64 centos:8
+# --platform=linux/arm64 centos:centos8
+# --platform=linux/arm64 centos:8.4.2105
 
 # ##### openeuler 系统镜像 #####
 # openeuler/openeuler:24.03-lts
@@ -146,9 +146,9 @@
 # openeuler/openeuler:20.03-lts-sp4
 
 # ##### openeuler ARM系统镜像 #####
---platform=linux/arm64 openeuler/openeuler:24.03-lts
---platform=linux/arm64 openeuler/openeuler:22.03-lts-sp4
---platform=linux/arm64 openeuler/openeuler:20.03-lts-sp4
+# --platform=linux/arm64 openeuler/openeuler:24.03-lts
+# --platform=linux/arm64 openeuler/openeuler:22.03-lts-sp4
+# --platform=linux/arm64 openeuler/openeuler:20.03-lts-sp4
 
 
 ################################# 构建镜像 #################################
@@ -156,26 +156,21 @@
 # node:12.22.10
 # node:12.22.10-stretch
 # node:12.22.10-bullseye
-# 
 # node:14.21.3
 # node:14.21.3-buster
 # node:14.21.3-bullseye
-# 
 # node:16.20.2
 # node:16.20.2-buster
 # node:16.20.2-bullseye
 # node:16.20.2-bookworm
-# 
 # node:18.19.0
 # node:18.19.0-buster
 # node:18.19.0-bullseye
 # node:18.19.0-bookworm
-# 
 # node:20.11.1
 # node:20.11.1-buster
 # node:20.11.1-bullseye
 # node:20.11.1-bookworm
-# 
 # node:22.5.1
 # node:22.5.1-bullseye
 # node:22.5.1-bookworm
@@ -184,76 +179,73 @@
 --platform=linux/arm64 node:12.22.10
 --platform=linux/arm64 node:12.22.10-stretch
 --platform=linux/arm64 node:12.22.10-bullseye
---platform=linux/arm64 
+
 --platform=linux/arm64 node:14.21.3
 --platform=linux/arm64 node:14.21.3-buster
 --platform=linux/arm64 node:14.21.3-bullseye
---platform=linux/arm64 
+
 --platform=linux/arm64 node:16.20.2
 --platform=linux/arm64 node:16.20.2-buster
 --platform=linux/arm64 node:16.20.2-bullseye
 --platform=linux/arm64 node:16.20.2-bookworm
---platform=linux/arm64 
+
 --platform=linux/arm64 node:18.19.0
 --platform=linux/arm64 node:18.19.0-buster
 --platform=linux/arm64 node:18.19.0-bullseye
 --platform=linux/arm64 node:18.19.0-bookworm
---platform=linux/arm64 
+
 --platform=linux/arm64 node:20.11.1
 --platform=linux/arm64 node:20.11.1-buster
 --platform=linux/arm64 node:20.11.1-bullseye
 --platform=linux/arm64 node:20.11.1-bookworm
---platform=linux/arm64 
+
 --platform=linux/arm64 node:22.5.1
 --platform=linux/arm64 node:22.5.1-bullseye
 --platform=linux/arm64 node:22.5.1-bookworm
 
 
 ##### maven 常用镜像 #####
-# 
-# maven:3.3.9
-# maven:3.3.9-jdk-8
-# 
-# maven:3.5.4
-# maven:3.5.4-jdk-7
-# maven:3.5.4-jdk-8
-# maven:3.5.4-jdk-9
-# maven:3.5.4-jdk-10
-# maven:3.5.4-jdk-11
-# 
-# maven:3.6.3
-# maven:3.6.3-jdk-8
-# maven:3.6.3-jdk-11
-# maven:3.6.3-openjdk-15
-# maven:3.6.3-openjdk-16
-# maven:3.6.3-openjdk-17
-# 
-# maven:3.8.8
-# maven:3.8.8-eclipse-temurin-8-focal
-# maven:3.8.8-eclipse-temurin-11-focal
-# maven:3.8.8-eclipse-temurin-17-focal
-# # ubuntu 22.04
-# maven:3.8.8-eclipse-temurin-21
-# 
-# maven:3.9.4
-# maven:3.9.4-eclipse-temurin-8-focal
-# maven:3.9.4-eclipse-temurin-11-focal
-# maven:3.9.4-eclipse-temurin-17-focal
-# maven:3.9.4-eclipse-temurin-21
-# 
-# maven:3.9.5
-# maven:3.9.6
-# maven:3.9.7
-# maven:3.9.8
-# maven:3.9.8-eclipse-temurin-8-focal
-# maven:3.9.7-eclipse-temurin-8-focal
-# maven:3.9.6-eclipse-temurin-8-focal
-# maven:3.9.5-eclipse-temurin-8-focal
-# maven:3.9.4-eclipse-temurin-8-focal
-# maven:3.8.5-openjdk-17
-# maven:3.9.8-eclipse-temurin-8
+# maven:3.3.9 没有arm镜像
+--platform=linux/arm64 maven:3.5.4
+--platform=linux/arm64 maven:3.5.4-jdk-7
+--platform=linux/arm64 maven:3.5.4-jdk-8
+--platform=linux/arm64 maven:3.5.4-jdk-9
+--platform=linux/arm64 maven:3.5.4-jdk-10
+--platform=linux/arm64 maven:3.5.4-jdk-11
 
-# ##### maven 常用镜像 #####
+--platform=linux/arm64 maven:3.6.3
+--platform=linux/arm64 maven:3.6.3-jdk-8
+--platform=linux/arm64 maven:3.6.3-jdk-11
+--platform=linux/arm64 maven:3.6.3-openjdk-15
+--platform=linux/arm64 maven:3.6.3-openjdk-16
+--platform=linux/arm64 maven:3.6.3-openjdk-17
+
+--platform=linux/arm64 maven:3.8.8
+--platform=linux/arm64 maven:3.8.8-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.8.8-eclipse-temurin-11-focal
+--platform=linux/arm64 maven:3.8.8-eclipse-temurin-17-focal
+--platform=linux/arm64 # ubuntu 22.04
+--platform=linux/arm64 maven:3.8.8-eclipse-temurin-21
+
+--platform=linux/arm64 maven:3.9.4
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-11-focal
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-17-focal
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-21
+
+--platform=linux/arm64 maven:3.9.5
+--platform=linux/arm64 maven:3.9.6
+--platform=linux/arm64 maven:3.9.7
+--platform=linux/arm64 maven:3.9.8
+--platform=linux/arm64 maven:3.9.8-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.7-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.6-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.5-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.8.5-openjdk-17
+--platform=linux/arm64 maven:3.9.8-eclipse-temurin-8
+
+# ##### gradle 常用镜像 #####
 # gradle:4.5.1 
 # gradle:4.5.1-jdk7
 # gradle:4.5.1-jdk8

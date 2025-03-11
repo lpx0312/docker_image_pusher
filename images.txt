@@ -23,7 +23,8 @@
 # ubuntu:noble
 # ubuntu:noble-20250127
 
-#### ARM64
+##### ubuntu ARM系统镜像 #####
+
 # --platform=linux/arm64 ubuntu:16.04
 # --platform=linux/arm64 ubuntu:xenial
 # --platform=linux/arm64 ubuntu:xenial-20210804
@@ -72,7 +73,7 @@
 # debian:bookworm-slim
 # debian:bookworm-20241223-slim
 
-##### ARM64
+##### debian ARM系统镜像 #####
 # --platform=linux/arm64 debian:bookworm
 # --platform=linux/arm64 debian:12.9
 # --platform=linux/arm64 debian:bookworm-20250224
@@ -96,11 +97,10 @@
 # --platform=linux/arm64 debian:9.13
 # --platform=linux/arm64 debian:stretch-20220622
 # 
-# 
+# # arm的8.11 官方镜像有问题，根本用不了
 # --platform=linux/arm64 debian:jessie
 # --platform=linux/arm64 debian:8.11
 # --platform=linux/arm64 debian:jessie-20210326
-# 
 # 
 # --platform=linux/arm64 debian:wheezy
 # --platform=linux/arm64 debian:7.11
@@ -131,6 +131,28 @@
 # centos:6 
 # centos:centos6
 # centos:6.10
+
+##### CentOS ARM系统镜像 #####
+--platform=linux/arm64 centos:7.0.1406
+--platform=linux/arm64 centos:7.1.1503
+--platform=linux/arm64 centos:7.2.1511
+--platform=linux/arm64 centos:7.3.1611
+--platform=linux/arm64 centos:7.4.1708
+--platform=linux/arm64 centos:7.5.1804
+--platform=linux/arm64 centos:7.6.1810
+--platform=linux/arm64 centos:7.7.1908
+--platform=linux/arm64 centos:7.8.2003
+--platform=linux/arm64 centos:7.9.2009
+--platform=linux/arm64 centos:7
+--platform=linux/arm64 centos:centos7
+--platform=linux/arm64 centos:centos7.9.2009
+--platform=linux/arm64 centos:8
+--platform=linux/arm64 centos:centos8
+--platform=linux/arm64 centos:8.4.2105
+--platform=linux/arm64 centos:6 
+--platform=linux/arm64 centos:centos6
+--platform=linux/arm64 centos:6.10
+
 
 # ##### openeuler 系统镜像 #####
 # openeuler/openeuler:24.03-lts

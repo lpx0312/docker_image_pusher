@@ -107,9 +107,7 @@
 # --platform=linux/arm64 debian:wheezy-20190228
 # --platform=linux/arm64 debian:bookworm-slim
 # --platform=linux/arm64 debian:bookworm-20241223-slim
-# 
 
---platform=linux/arm/v5 debian:8.11
 
 ##### CentOS 系统镜像 #####
 # centos:7.0.1406
@@ -133,15 +131,7 @@
 # centos:6.10
 
 ##### CentOS ARM系统镜像 #####
---platform=linux/arm64 centos:7.0.1406
---platform=linux/arm64 centos:7.1.1503
---platform=linux/arm64 centos:7.2.1511
---platform=linux/arm64 centos:7.3.1611
---platform=linux/arm64 centos:7.4.1708
---platform=linux/arm64 centos:7.5.1804
---platform=linux/arm64 centos:7.6.1810
---platform=linux/arm64 centos:7.7.1908
---platform=linux/arm64 centos:7.8.2003
+# centos7的其他版本，以及centos6都没有arm版本
 --platform=linux/arm64 centos:7.9.2009
 --platform=linux/arm64 centos:7
 --platform=linux/arm64 centos:centos7
@@ -149,15 +139,16 @@
 --platform=linux/arm64 centos:8
 --platform=linux/arm64 centos:centos8
 --platform=linux/arm64 centos:8.4.2105
---platform=linux/arm64 centos:6 
---platform=linux/arm64 centos:centos6
---platform=linux/arm64 centos:6.10
-
 
 # ##### openeuler 系统镜像 #####
 # openeuler/openeuler:24.03-lts
 # openeuler/openeuler:22.03-lts-sp4
 # openeuler/openeuler:20.03-lts-sp4
+
+# ##### openeuler ARM系统镜像 #####
+--platform=linux/arm64 openeuler/openeuler:24.03-lts
+--platform=linux/arm64 openeuler/openeuler:22.03-lts-sp4
+--platform=linux/arm64 openeuler/openeuler:20.03-lts-sp4
 
 
 ################################# 构建镜像 #################################
@@ -188,6 +179,34 @@
 # node:22.5.1
 # node:22.5.1-bullseye
 # node:22.5.1-bookworm
+
+##### node ARM 常用镜像 #####
+--platform=linux/arm64 node:12.22.10
+--platform=linux/arm64 node:12.22.10-stretch
+--platform=linux/arm64 node:12.22.10-bullseye
+--platform=linux/arm64 
+--platform=linux/arm64 node:14.21.3
+--platform=linux/arm64 node:14.21.3-buster
+--platform=linux/arm64 node:14.21.3-bullseye
+--platform=linux/arm64 
+--platform=linux/arm64 node:16.20.2
+--platform=linux/arm64 node:16.20.2-buster
+--platform=linux/arm64 node:16.20.2-bullseye
+--platform=linux/arm64 node:16.20.2-bookworm
+--platform=linux/arm64 
+--platform=linux/arm64 node:18.19.0
+--platform=linux/arm64 node:18.19.0-buster
+--platform=linux/arm64 node:18.19.0-bullseye
+--platform=linux/arm64 node:18.19.0-bookworm
+--platform=linux/arm64 
+--platform=linux/arm64 node:20.11.1
+--platform=linux/arm64 node:20.11.1-buster
+--platform=linux/arm64 node:20.11.1-bullseye
+--platform=linux/arm64 node:20.11.1-bookworm
+--platform=linux/arm64 
+--platform=linux/arm64 node:22.5.1
+--platform=linux/arm64 node:22.5.1-bullseye
+--platform=linux/arm64 node:22.5.1-bookworm
 
 
 ##### maven 常用镜像 #####

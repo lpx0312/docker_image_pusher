@@ -24,6 +24,23 @@
 # ubuntu:noble-20250127
 
 
+--platform=linux/arm64 ubuntu:16.04
+--platform=linux/arm64 ubuntu:xenial
+--platform=linux/arm64 ubuntu:xenial-20210804
+--platform=linux/arm64 ubuntu:18.04
+--platform=linux/arm64 ubuntu:bionic
+--platform=linux/arm64 ubuntu:bionic-20230530
+--platform=linux/arm64 ubuntu:20.04
+--platform=linux/arm64 ubuntu:focal
+--platform=linux/arm64 ubuntu:focal-20241011
+--platform=linux/arm64 ubuntu:22.04
+--platform=linux/arm64 ubuntu:jammy
+--platform=linux/arm64 ubuntu:jammy-20250126
+--platform=linux/arm64 ubuntu:24.04
+--platform=linux/arm64 ubuntu:noble
+--platform=linux/arm64 ubuntu:noble-20250127
+
+
 ##### debian 系统镜像 #####
 # debian:bookworm
 # debian:12.9

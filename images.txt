@@ -445,20 +445,20 @@
 # sonatype/nexus3:3.70.1
 # 上面的nexus3版本都没有arm版本的镜像
 # 从3.78.0开始才有arm版本的
-sonatype/nexus3:3.78.0
-sonatype/nexus3:3.78.0-ubi
-sonatype/nexus3:3.78.0-java17-ubi
-sonatype/nexus3:3.78.1
-sonatype/nexus3:3.78.1-ubi
-sonatype/nexus3:3.78.1-java17-ubi
+# sonatype/nexus3:3.78.0
+# sonatype/nexus3:3.78.0-ubi
+# sonatype/nexus3:3.78.0-java17-ubi
+# sonatype/nexus3:3.78.1
+# sonatype/nexus3:3.78.1-ubi
+# sonatype/nexus3:3.78.1-java17-ubi
 
 # ### nexus ARM 常用镜像 ### #
---platform=linux/arm64 sonatype/nexus3:3.78.0
---platform=linux/arm64 sonatype/nexus3:3.78.0-ubi
---platform=linux/arm64 sonatype/nexus3:3.78.0-java17-ubi
---platform=linux/arm64 sonatype/nexus3:3.78.1
---platform=linux/arm64 sonatype/nexus3:3.78.1-ubi
---platform=linux/arm64 sonatype/nexus3:3.78.1-java17-ubi
+# --platform=linux/arm64 sonatype/nexus3:3.78.0
+# --platform=linux/arm64 sonatype/nexus3:3.78.0-ubi
+# --platform=linux/arm64 sonatype/nexus3:3.78.0-java17-ubi
+# --platform=linux/arm64 sonatype/nexus3:3.78.1
+# --platform=linux/arm64 sonatype/nexus3:3.78.1-ubi
+# --platform=linux/arm64 sonatype/nexus3:3.78.1-java17-ubi
 
 
 
@@ -472,13 +472,13 @@ sonatype/nexus3:3.78.1-java17-ubi
 # redis:7.0.8
 
 ### redis ARM常用镜像 ###
---platform=linux/arm64 redis:3.2.12
---platform=linux/arm64 redis:4.0.14
---platform=linux/arm64 redis:5.0.10
---platform=linux/arm64 redis:6.0.9
---platform=linux/arm64 redis:6.2.6
---platform=linux/arm64 redis:7.0.0
---platform=linux/arm64 redis:7.0.8
+# --platform=linux/arm64 redis:3.2.12
+# --platform=linux/arm64 redis:4.0.14
+# --platform=linux/arm64 redis:5.0.10
+# --platform=linux/arm64 redis:6.0.9
+# --platform=linux/arm64 redis:6.2.6
+# --platform=linux/arm64 redis:7.0.0
+# --platform=linux/arm64 redis:7.0.8
 
 ### nginx常用镜像
 # # nginx:1.8.1 镜像版本太老使用V1格式，无法拉取了
@@ -494,15 +494,15 @@ sonatype/nexus3:3.78.1-java17-ubi
 # nginx:1.27.0
 
 ### nginx ARM常用镜像 ###
---platform=linux/arm64 nginx:1.14.2
---platform=linux/arm64 nginx:1.16.1
---platform=linux/arm64 nginx:1.18.0
---platform=linux/arm64 nginx:1.20.2
---platform=linux/arm64 nginx:1.22.1
---platform=linux/arm64 nginx:1.24.0
---platform=linux/arm64 nginx:1.25.1
---platform=linux/arm64 nginx:1.26.1
---platform=linux/arm64 nginx:1.27.0
+# --platform=linux/arm64 nginx:1.14.2
+# --platform=linux/arm64 nginx:1.16.1
+# --platform=linux/arm64 nginx:1.18.0
+# --platform=linux/arm64 nginx:1.20.2
+# --platform=linux/arm64 nginx:1.22.1
+# --platform=linux/arm64 nginx:1.24.0
+# --platform=linux/arm64 nginx:1.25.1
+# --platform=linux/arm64 nginx:1.26.1
+# --platform=linux/arm64 nginx:1.27.0
 
 # ### nginx 正向https代理
 # bobbynie/nginx-connect:1.21.1_1681057673
@@ -520,38 +520,38 @@ sonatype/nexus3:3.78.1-java17-ubi
 # mysql:9.0.1
 
 ### mysql ARM 常用镜像 ####
---platform=linux/arm64 mysql:8.0.31
---platform=linux/arm64 mysql:8.0.39
---platform=linux/arm64 mysql:8.4.2
---platform=linux/arm64 mysql:9.0.1
+# --platform=linux/arm64 mysql:8.0.31
+# --platform=linux/arm64 mysql:8.0.39
+# --platform=linux/arm64 mysql:8.4.2
+# --platform=linux/arm64 mysql:9.0.1
 
 
 ### mariadb 常用镜像 ####
-mariadb:5.5.64
-# 对应5.6
-mariadb:10.0.38
-mariadb:10.1.48
-# 对应5.7
-mariadb:10.2.44
-mariadb:10.3.39
-# 对应8.0
-mariadb:10.4.34
-mariadb:10.5.28
-mariadb:10.6.21
-mariadb:10.11.11
+# mariadb:5.5.64
+# # 对应5.6
+# mariadb:10.0.38
+# mariadb:10.1.48
+# # 对应5.7
+# mariadb:10.2.44
+# mariadb:10.3.39
+# # 对应8.0
+# mariadb:10.4.34
+# mariadb:10.5.28
+# mariadb:10.6.21
+# mariadb:10.11.11
 
 ### mariadb ARM常用镜像 ####
-# 对应5.6
---platform=linux/arm64 mariadb:10.0.38
---platform=linux/arm64 mariadb:10.1.48
-# 对应5.7
---platform=linux/arm64 mariadb:10.2.44
---platform=linux/arm64 mariadb:10.3.39
-# 对应8.0
---platform=linux/arm64 mariadb:10.4.34
---platform=linux/arm64 mariadb:10.5.28
---platform=linux/arm64 mariadb:10.6.21
---platform=linux/arm64 mariadb:10.11.11
+# # 对应5.6
+# --platform=linux/arm64 mariadb:10.0.38
+# --platform=linux/arm64 mariadb:10.1.48
+# # 对应5.7
+# --platform=linux/arm64 mariadb:10.2.44
+# --platform=linux/arm64 mariadb:10.3.39
+# # 对应8.0
+# --platform=linux/arm64 mariadb:10.4.34
+# --platform=linux/arm64 mariadb:10.5.28
+# --platform=linux/arm64 mariadb:10.6.21
+# --platform=linux/arm64 mariadb:10.11.11
 
 #### Nacos X86 ####
 # nacos/nacos-server:v1.4.8
@@ -562,17 +562,17 @@ mariadb:10.11.11
 # nacos/nacos-server:v2.2.0 #没有arm
 # nacos/nacos-server:v2.1.2 #没有arm
 # nacos/nacos-server:v2.4.0 
-nacos/nacos-server:v2.4.2
-nacos/nacos-server:v2.4.3
-nacos/nacos-server:v2.5.0
-nacos/nacos-server:v2.5.1
+# nacos/nacos-server:v2.4.2
+# nacos/nacos-server:v2.4.3
+# nacos/nacos-server:v2.5.0
+# nacos/nacos-server:v2.5.1
 
 #### Nacos ARM ####
---platform=linux/arm64 nacos/nacos-server:v2.4.0 
---platform=linux/arm64 nacos/nacos-server:v2.4.2
---platform=linux/arm64 nacos/nacos-server:v2.4.3
---platform=linux/arm64 nacos/nacos-server:v2.5.0
---platform=linux/arm64 nacos/nacos-server:v2.5.1
+# --platform=linux/arm64 nacos/nacos-server:v2.4.0 
+# --platform=linux/arm64 nacos/nacos-server:v2.4.2
+# --platform=linux/arm64 nacos/nacos-server:v2.4.3
+# --platform=linux/arm64 nacos/nacos-server:v2.5.0
+# --platform=linux/arm64 nacos/nacos-server:v2.5.1
 
 ## nacos-mysql
 # nacos/nacos-mysql:5.7
@@ -585,7 +585,6 @@ nacos/nacos-server:v2.5.1
 # nacos/nacos-operator:v1.0.0
 
 --platform=linux/arm64 nacos/nacos-operator:v1.0.1
---platform=linux/arm64 nacos/nacos-operator:v1.0.0
 
 
 ### minio

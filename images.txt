@@ -289,9 +289,9 @@
 
 # ##### gradle ARM 常用镜像 #####
 
---platform=linux/arm64 gradle:4.10.2
---platform=linux/arm64 gradle:4.10.2-jdk8
---platform=linux/arm64 gradle:4.10.2-jdk11
+# --platform=linux/arm64 gradle:4.10.2
+# --platform=linux/arm64 gradle:4.10.2-jdk8
+# --platform=linux/arm64 gradle:4.10.2-jdk11
 
 # gradle:4.5.1  都没有arm
 

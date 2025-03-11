@@ -23,22 +23,22 @@
 # ubuntu:noble
 # ubuntu:noble-20250127
 
-
---platform=linux/arm64 ubuntu:16.04
---platform=linux/arm64 ubuntu:xenial
---platform=linux/arm64 ubuntu:xenial-20210804
---platform=linux/arm64 ubuntu:18.04
---platform=linux/arm64 ubuntu:bionic
---platform=linux/arm64 ubuntu:bionic-20230530
---platform=linux/arm64 ubuntu:20.04
---platform=linux/arm64 ubuntu:focal
---platform=linux/arm64 ubuntu:focal-20241011
---platform=linux/arm64 ubuntu:22.04
---platform=linux/arm64 ubuntu:jammy
---platform=linux/arm64 ubuntu:jammy-20250126
---platform=linux/arm64 ubuntu:24.04
---platform=linux/arm64 ubuntu:noble
---platform=linux/arm64 ubuntu:noble-20250127
+#### ARM64
+# --platform=linux/arm64 ubuntu:16.04
+# --platform=linux/arm64 ubuntu:xenial
+# --platform=linux/arm64 ubuntu:xenial-20210804
+# --platform=linux/arm64 ubuntu:18.04
+# --platform=linux/arm64 ubuntu:bionic
+# --platform=linux/arm64 ubuntu:bionic-20230530
+# --platform=linux/arm64 ubuntu:20.04
+# --platform=linux/arm64 ubuntu:focal
+# --platform=linux/arm64 ubuntu:focal-20241011
+# --platform=linux/arm64 ubuntu:22.04
+# --platform=linux/arm64 ubuntu:jammy
+# --platform=linux/arm64 ubuntu:jammy-20250126
+# --platform=linux/arm64 ubuntu:24.04
+# --platform=linux/arm64 ubuntu:noble
+# --platform=linux/arm64 ubuntu:noble-20250127
 
 
 ##### debian 系统镜像 #####
@@ -71,6 +71,39 @@
 # debian:wheezy-20190228
 # debian:bookworm-slim
 # debian:bookworm-20241223-slim
+
+##### ARM64
+--platform=linux/arm64 debian:bookworm
+--platform=linux/arm64 debian:12.9
+--platform=linux/arm64 debian:bookworm-20250224
+--platform=linux/arm64 debian:12.8
+--platform=linux/arm64 debian:bookworm-20241223
+ 
+--platform=linux/arm64 debian:bullseye
+--platform=linux/arm64 debian:11.11
+--platform=linux/arm64 debian:bullseye-20250224
+--platform=linux/arm64 debian:11.8
+--platform=linux/arm64 debian:bullseye-20240130
+ 
+--platform=linux/arm64 debian:buster
+--platform=linux/arm64 debian:10.13
+--platform=linux/arm64 debian:buster-20240612
+ 
+--platform=linux/arm64 debian:stretch
+--platform=linux/arm64 debian:9.13
+--platform=linux/arm64 debian:stretch-20220622
+ 
+--platform=linux/arm64 debian:jessie
+--platform=linux/arm64 debian:8.11
+--platform=linux/arm64 debian:jessie-20210326
+ 
+--platform=linux/arm64 debian:wheezy
+--platform=linux/arm64 debian:7.11
+--platform=linux/arm64 debian:wheezy-20190228
+--platform=linux/arm64 debian:bookworm-slim
+--platform=linux/arm64 debian:bookworm-20241223-slim
+
+
 
 ##### CentOS 系统镜像 #####
 # centos:7.0.1406

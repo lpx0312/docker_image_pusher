@@ -2,6 +2,18 @@
 
 ###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
 
+
+
+##### 多平台构建buildx buildkit #####
+moby/buildkit:v0.20.1
+moby/buildkit:latest
+--platform=linux/arm64 moby/buildkit:v0.20.1
+--platform=linux/arm64 moby/buildkit:latest
+
+
+multiarch/qemu-user-static:latest
+multiarch/qemu-user-static:7.2.0-1
+
 ##### ubuntu 系统镜像 #####
 # ubuntu:16.04
 # ubuntu:xenial

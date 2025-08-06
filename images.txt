@@ -2,7 +2,7 @@
 
 ###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
 
-goharbor/prepare:v2.2.3
+#goharbor/prepare:v2.2.3
 
 ##### 多平台构建buildx buildkit #####
 # moby/buildkit:v0.20.1
@@ -14,11 +14,11 @@ goharbor/prepare:v2.2.3
 # multiarch/qemu-user-static:latest
 # multiarch/qemu-user-static:7.2.0-1
 # 
-tonistiigi/binfmt:latest 
-tonistiigi/binfmt:qemu-v9.2.2
+#tonistiigi/binfmt:latest 
+#tonistiigi/binfmt:qemu-v9.2.2
 
---platform=linux/arm64 tonistiigi/binfmt:latest 
---platform=linux/arm64 tonistiigi/binfmt:qemu-v9.2.2
+#--platform=linux/arm64 tonistiigi/binfmt:latest 
+#--platform=linux/arm64 tonistiigi/binfmt:qemu-v9.2.2
 
 ##### ubuntu 系统镜像 #####
 # ubuntu:16.04
@@ -699,3 +699,14 @@ tonistiigi/binfmt:qemu-v9.2.2
 #--platform=linux/arm64 gitlab/gitlab-ce:13.10.5-ce.0
 #--platform=linux/amd64 gitlab/gitlab-ce:13.10.5-ce.0
 #
+
+
+
+######### calico
+docker.io/calico/cni:v3.26.4
+docker.io/calico/csi:v3.26.4
+docker.io/calico/kube-controllers:v3.26.4
+docker.io/calico/node-driver-registrar:v3.26.4
+docker.io/calico/node:v3.26.4
+docker.io/calico/pod2daemon-flexvol:v3.26.4
+docker.io/calico/typha:v3.26.4

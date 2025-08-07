@@ -702,11 +702,18 @@
 
 
 
-######### calico
-docker.io/calico/cni:v3.26.4
-docker.io/calico/csi:v3.26.4
-docker.io/calico/kube-controllers:v3.26.4
-docker.io/calico/node-driver-registrar:v3.26.4
-docker.io/calico/node:v3.26.4
-docker.io/calico/pod2daemon-flexvol:v3.26.4
-docker.io/calico/typha:v3.26.4
+######### calico 官方镜像
+# docker.io/calico/cni:v3.26.4
+# docker.io/calico/csi:v3.26.4
+# docker.io/calico/kube-controllers:v3.26.4
+# docker.io/calico/node-driver-registrar:v3.26.4
+# docker.io/calico/node:v3.26.4
+# docker.io/calico/pod2daemon-flexvol:v3.26.4
+# docker.io/calico/typha:v3.26.4
+
+
+######### kylinv10 镜像 非官方
+macrosan/kylin:v10-sp1
+macrosan/kylin:v10-sp2
+macrosan/kylin:v10-sp3
+macrosan/kylin:v10-sp3-2403

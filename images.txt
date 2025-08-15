@@ -713,7 +713,11 @@
 
 
 ######### kylinv10 镜像 非官方
-macrosan/kylin:v10-sp1
-macrosan/kylin:v10-sp2
-macrosan/kylin:v10-sp3
-macrosan/kylin:v10-sp3-2403
+# macrosan/kylin:v10-sp1
+# macrosan/kylin:v10-sp2
+# macrosan/kylin:v10-sp3
+# macrosan/kylin:v10-sp3-2403
+
+
+
+mongo:4.4.5

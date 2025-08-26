@@ -720,4 +720,8 @@
 
 
 
-mongo:4.4.5
+# mongo:4.4.5
+apacherocketmq/rocketmq-dashboard:1.0.0
+apacherocketmq/rocketmq-dashboard:2.0.0
+apacherocketmq/rocketmq-dashboard:2.0.1
+apacherocketmq/rocketmq-dashboard:2.1.0

@@ -1,6 +1,9 @@
 ubuntu:18.04
 
 # 历史镜像记录
+# ubuntu:18.04
+
+# 历史镜像记录
 # nginx:latest
 
 # 历史镜像记录

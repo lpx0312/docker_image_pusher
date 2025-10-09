@@ -1,4 +1,7 @@
---platform=linux/arm64 ubuntu:20.04
+--platform=linux/arm64 ubuntu:24.04
+
+# 历史镜像记录
+# --platform=linux/arm64 ubuntu:20.04
 
 # 历史镜像记录
 # ubuntu:18.04
@@ -33,7 +36,7 @@
 # 
 # 
 # multiarch/qemu-user-static:latest
-multiarch/qemu-user-static:7.2.0-1
+# multiarch/qemu-user-static:7.2.0-1
 # 
 #tonistiigi/binfmt:latest 
 #tonistiigi/binfmt:qemu-v9.2.2
@@ -717,7 +720,7 @@ multiarch/qemu-user-static:7.2.0-1
 
 
 # ghcr.io/open-webui/open-webui:main
-registry.k8s.io/e2e-test-images/agnhost:2.40
+# registry.k8s.io/e2e-test-images/agnhost:2.40
 
 
 #xhofe/alist:latest

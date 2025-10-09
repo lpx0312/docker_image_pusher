@@ -1,4 +1,7 @@
-gitlab/gitlab-ce:18.2.8-ce.0
+nginx:latest
+
+# 历史镜像记录
+# gitlab/gitlab-ce:18.2.8-ce.0
 
 # 历史镜像记录
 # nginx:latest

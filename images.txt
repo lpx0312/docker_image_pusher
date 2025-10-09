@@ -1,4 +1,7 @@
-ubuntu:18.04
+--platform=linux/arm64 ubuntu:20.04
+
+# 历史镜像记录
+# ubuntu:18.04
 
 # 历史镜像记录
 # ubuntu:18.04

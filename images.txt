@@ -1,5 +1,8 @@
-nginx:1.28.0
---platform=linux/arm64 nginx:1.28.0
+nginx:1.23.0
+
+# 历史镜像记录
+# nginx:1.28.0
+# --platform=linux/arm64 nginx:1.28.0
 
 # 历史镜像记录
 # alpine:3.18

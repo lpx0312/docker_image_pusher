@@ -1,6 +1,9 @@
 --platform=linux/arm64 nginx:1.27.0
 
 # 历史镜像记录
+# --platform=linux/arm64 nginx:1.27.0
+
+# 历史镜像记录
 # --platform=linux/arm64 nginx:1.22.0
 
 # 历史镜像记录

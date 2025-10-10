@@ -1,4 +1,9 @@
---platform=linux/arm64 redis:7.0
+nginx:1.28.0
+redis:7.0
+mysql:8.0
+
+# 历史镜像记录
+# --platform=linux/arm64 redis:7.0
 
 # 历史镜像记录
 # --platform=linux/arm64 redis:6.2

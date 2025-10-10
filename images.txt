@@ -1,4 +1,10 @@
+redis:6.2
+--platform=linux/arm64 redis:6.2
+redis:7.0
 --platform=linux/arm64 redis:7.0
+
+# 历史镜像记录
+# --platform=linux/arm64 redis:7.0
 
 # 历史镜像记录
 # --platform=linux/arm64 redis:7.1

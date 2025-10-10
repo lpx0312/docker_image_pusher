@@ -1,6 +1,11 @@
 nginx:1.28.0
 redis:7.0
---platform=linux/arm64 mysql:8.0
+mysql:8.0
+
+# 历史镜像记录
+# nginx:1.28.0
+# redis:7.0
+# --platform=linux/arm64 mysql:8.0
 
 # 历史镜像记录
 # redis:6.2

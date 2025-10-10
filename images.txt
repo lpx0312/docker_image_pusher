@@ -1,7 +1,10 @@
-nginx:1.28.0
---platform=linux/arm64 nginx:1.28.0
-nginx:1.27.1
---platform=linux/arm64 nginx:1.27.1
+--platform=linux/arm64 nginx:1.23.0
+
+# 历史镜像记录
+# nginx:1.28.0
+# --platform=linux/arm64 nginx:1.28.0
+# nginx:1.27.1
+# --platform=linux/arm64 nginx:1.27.1
 
 # 历史镜像记录
 # --platform=linux/arm64 nginx:1.19.0

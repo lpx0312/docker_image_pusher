@@ -1,7 +1,12 @@
-nginx:1.28.0
---platform=linux/arm64 nginx:1.28.0
-redis:7.0
---platform=linux/arm64 mysql:8.0
+registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.2.1
+xhofe/alist:latest
+registry.gitlab.com/gitlab-org/gitlab-runner:ubuntu-v17.2.1
+
+# 历史镜像记录
+# nginx:1.28.0
+# --platform=linux/arm64 nginx:1.28.0
+# redis:7.0
+# --platform=linux/arm64 mysql:8.0
 
 # 历史镜像记录
 # nginx:1.26.0

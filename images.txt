@@ -1,41 +1,230 @@
-registry.gitlab.com/gitlab-org/gitlab-docs:13.1
-registry.gitlab.com/gitlab-org/gitlab-docs:13.1
-registry.gitlab.com/gitlab-org/gitlab-docs:13.9
-registry.gitlab.com/gitlab-org/gitlab-docs:13.8
-registry.gitlab.com/gitlab-org/gitlab-docs:13.7
-registry.gitlab.com/gitlab-org/gitlab-docs:13.6
-registry.gitlab.com/gitlab-org/gitlab-docs:13.5
-registry.gitlab.com/gitlab-org/gitlab-docs:13.4
-registry.gitlab.com/gitlab-org/gitlab-docs:13.3
-registry.gitlab.com/gitlab-org/gitlab-docs:13.2
-registry.gitlab.com/gitlab-org/gitlab-docs:13.1
-registry.gitlab.com/gitlab-org/gitlab-docs:12.1
-registry.gitlab.com/gitlab-org/gitlab-docs:12.9
-registry.gitlab.com/gitlab-org/gitlab-docs:12.8
-registry.gitlab.com/gitlab-org/gitlab-docs:12.7
-registry.gitlab.com/gitlab-org/gitlab-docs:12.6
-registry.gitlab.com/gitlab-org/gitlab-docs:12.5
-registry.gitlab.com/gitlab-org/gitlab-docs:12.4
-registry.gitlab.com/gitlab-org/gitlab-docs:12.3
-registry.gitlab.com/gitlab-org/gitlab-docs:12.2
-registry.gitlab.com/gitlab-org/gitlab-docs:12.1
-registry.gitlab.com/gitlab-org/gitlab-docs:11.1
-registry.gitlab.com/gitlab-org/gitlab-docs:11.1
-registry.gitlab.com/gitlab-org/gitlab-docs:11.9
-registry.gitlab.com/gitlab-org/gitlab-docs:11.8
-registry.gitlab.com/gitlab-org/gitlab-docs:11.7
-registry.gitlab.com/gitlab-org/gitlab-docs:11.6
-registry.gitlab.com/gitlab-org/gitlab-docs:11.5
-registry.gitlab.com/gitlab-org/gitlab-docs:11.4
-registry.gitlab.com/gitlab-org/gitlab-docs:11.3
-registry.gitlab.com/gitlab-org/gitlab-docs:11.2
-registry.gitlab.com/gitlab-org/gitlab-docs:11.1
-registry.gitlab.com/gitlab-org/gitlab-docs:10.8
-registry.gitlab.com/gitlab-org/gitlab-docs:10.7
-registry.gitlab.com/gitlab-org/gitlab-docs:10.6
-registry.gitlab.com/gitlab-org/gitlab-docs:10.5
-registry.gitlab.com/gitlab-org/gitlab-docs:10.4
-registry.gitlab.com/gitlab-org/gitlab-docs:10.3
+--platform=linux/arm64 moby/buildkit:v0.20.1
+--platform=linux/arm64 moby/buildkit:latest
+--platform=linux/arm64 tonistiigi/binfmt:latest 
+--platform=linux/arm64 tonistiigi/binfmt:qemu-v9.2.2
+--platform=linux/arm64 ubuntu:16.04
+--platform=linux/arm64 ubuntu:xenial
+--platform=linux/arm64 ubuntu:xenial-20210804
+--platform=linux/arm64 ubuntu:18.04
+--platform=linux/arm64 ubuntu:bionic
+--platform=linux/arm64 ubuntu:bionic-20230530
+--platform=linux/arm64 ubuntu:20.04
+--platform=linux/arm64 ubuntu:focal
+--platform=linux/arm64 ubuntu:focal-20241011
+--platform=linux/arm64 ubuntu:22.04
+--platform=linux/arm64 ubuntu:jammy
+--platform=linux/arm64 ubuntu:jammy-20250126
+--platform=linux/arm64 ubuntu:24.04
+--platform=linux/arm64 ubuntu:noble
+--platform=linux/arm64 ubuntu:noble-20250127
+--platform=linux/arm64 debian:bookworm
+--platform=linux/arm64 debian:12.9
+--platform=linux/arm64 debian:bookworm-20250224
+--platform=linux/arm64 debian:12.8
+--platform=linux/arm64 debian:bookworm-20241223
+--platform=linux/arm64 debian:bullseye
+--platform=linux/arm64 debian:11.11
+--platform=linux/arm64 debian:bullseye-20250224
+--platform=linux/arm64 debian:11.8
+--platform=linux/arm64 debian:bullseye-20240130
+--platform=linux/arm64 debian:buster
+--platform=linux/arm64 debian:10.13
+--platform=linux/arm64 debian:buster-20240612
+--platform=linux/arm64 debian:stretch
+--platform=linux/arm64 debian:9.13
+--platform=linux/arm64 debian:stretch-20220622
+--platform=linux/arm64 debian:jessie
+--platform=linux/arm64 debian:8.11
+--platform=linux/arm64 debian:jessie-20210326
+--platform=linux/arm64 debian:wheezy
+--platform=linux/arm64 debian:7.11
+--platform=linux/arm64 debian:wheezy-20190228
+--platform=linux/arm64 debian:bookworm-slim
+--platform=linux/arm64 debian:bookworm-20241223-slim
+--platform=linux/arm64 centos:7.9.2009
+--platform=linux/arm64 centos:7
+--platform=linux/arm64 centos:centos7
+--platform=linux/arm64 centos:centos7.9.2009
+--platform=linux/arm64 centos:8
+--platform=linux/arm64 centos:centos8
+--platform=linux/arm64 centos:8.4.2105
+--platform=linux/arm64 openeuler/openeuler:24.03-lts
+--platform=linux/arm64 openeuler/openeuler:22.03-lts-sp4
+--platform=linux/arm64 openeuler/openeuler:20.03-lts-sp4
+--platform=linux/arm64 node:12.22.10
+--platform=linux/arm64 node:12.22.10-stretch
+--platform=linux/arm64 node:12.22.10-bullseye
+--platform=linux/arm64 node:14.21.3
+--platform=linux/arm64 node:14.21.3-buster
+--platform=linux/arm64 node:14.21.3-bullseye
+--platform=linux/arm64 node:16.20.2
+--platform=linux/arm64 node:16.20.2-buster
+--platform=linux/arm64 node:16.20.2-bullseye
+--platform=linux/arm64 node:16.20.2-bookworm
+--platform=linux/arm64 node:18.19.0
+--platform=linux/arm64 node:18.19.0-buster
+--platform=linux/arm64 node:18.19.0-bullseye
+--platform=linux/arm64 node:18.19.0-bookworm
+--platform=linux/arm64 node:20.11.1
+--platform=linux/arm64 node:20.11.1-buster
+--platform=linux/arm64 node:20.11.1-bullseye
+--platform=linux/arm64 node:20.11.1-bookworm
+--platform=linux/arm64 node:22.5.1
+--platform=linux/arm64 node:22.5.1-bullseye
+--platform=linux/arm64 node:22.5.1-bookworm
+--platform=linux/arm64 maven:3.5.4
+--platform=linux/arm64 maven:3.5.4-jdk-7
+--platform=linux/arm64 maven:3.5.4-jdk-8
+--platform=linux/arm64 maven:3.5.4-jdk-9
+--platform=linux/arm64 maven:3.5.4-jdk-10
+--platform=linux/arm64 maven:3.5.4-jdk-11
+--platform=linux/arm64 maven:3.6.3
+--platform=linux/arm64 maven:3.6.3-jdk-11
+--platform=linux/arm64 maven:3.6.3-openjdk-15
+--platform=linux/arm64 maven:3.6.3-openjdk-16
+--platform=linux/arm64 maven:3.6.3-openjdk-17
+--platform=linux/arm64 maven:3.8.8
+--platform=linux/arm64 maven:3.8.8-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.8.8-eclipse-temurin-11-focal
+--platform=linux/arm64 maven:3.8.8-eclipse-temurin-17-focal
+--platform=linux/arm64 maven:3.8.8-eclipse-temurin-21
+--platform=linux/arm64 maven:3.9.4
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-11-focal
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-17-focal
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-21
+--platform=linux/arm64 maven:3.9.5
+--platform=linux/arm64 maven:3.9.6
+--platform=linux/arm64 maven:3.9.7
+--platform=linux/arm64 maven:3.9.8
+--platform=linux/arm64 maven:3.9.8-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.7-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.6-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.5-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.9.4-eclipse-temurin-8-focal
+--platform=linux/arm64 maven:3.8.5-openjdk-17
+--platform=linux/arm64 maven:3.9.8-eclipse-temurin-8
+--platform=linux/arm64 gradle:4.10.2
+--platform=linux/arm64 gradle:4.10.2-jdk8
+--platform=linux/arm64 gradle:4.10.2-jdk11
+--platform=linux/arm64 gradle:6.9.4
+--platform=linux/arm64 gradle:6.9.4-jdk-jammy
+--platform=linux/arm64 gradle:6.9.4-jdk8-jammy
+--platform=linux/arm64 gradle:6.9.4-jdk8-focal
+--platform=linux/arm64 gradle:6.9.4-jdk11-corretto
+--platform=linux/arm64 gradle:6.9.4-jdk17-corretto
+--platform=linux/arm64 gradle:7.6.4
+--platform=linux/arm64 gradle:7.6.4-jdk8-focal
+--platform=linux/arm64 gradle:7.6.4-jdk8-corretto
+--platform=linux/arm64 gradle:7.6.4-jdk11-focal
+--platform=linux/arm64 gradle:7.6.4-jdk11-corretto
+--platform=linux/arm64 gradle:7.6.4-jdk17-focal
+--platform=linux/arm64 gradle:7.6.4-jdk17-jammy
+--platform=linux/arm64 gradle:8.13.0
+--platform=linux/arm64 gradle:8.13-jdk8
+--platform=linux/arm64 gradle:8.13-jdk8-focal
+--platform=linux/arm64 gradle:8.13-jdk8-corretto
+--platform=linux/arm64 gradle:8.13-jdk11-focal
+--platform=linux/arm64 gradle:8.13-jdk11-corretto
+--platform=linux/arm64 gradle:8.13-jdk17-focal
+--platform=linux/arm64 gradle:8.13-jdk17-jammy
+--platform=linux/arm64 gradle:8.13-jdk17-corretto
+--platform=linux/arm64 gradle:8.13-jdk21-jammy
+--platform=linux/arm64 gradle:8.13-jdk21-corretto
+--platform=linux/arm64 gradle:8.13-jdk23-alpine
+--platform=linux/arm64 gradle:8.13-jdk23-corretto
+--platform=linux/arm64 python:3.6.15
+--platform=linux/arm64 python:3.7.17
+--platform=linux/arm64 python:3.8.19
+--platform=linux/arm64 python:3.9.19
+--platform=linux/arm64 python:3.10.14
+--platform=linux/arm64 python:3.11.9
+--platform=linux/arm64 sonatype/nexus3:3.78.0
+--platform=linux/arm64 sonatype/nexus3:3.78.0-ubi
+--platform=linux/arm64 sonatype/nexus3:3.78.0-java17-ubi
+--platform=linux/arm64 sonatype/nexus3:3.78.1
+--platform=linux/arm64 sonatype/nexus3:3.78.1-ubi
+--platform=linux/arm64 sonatype/nexus3:3.78.1-java17-ubi
+--platform=linux/arm64 redis:3.2.12
+--platform=linux/arm64 redis:4.0.14
+--platform=linux/arm64 redis:5.0.10
+--platform=linux/arm64 redis:6.0.9
+--platform=linux/arm64 redis:6.2.6
+--platform=linux/arm64 redis:7.0.0
+--platform=linux/arm64 redis:7.0.8
+--platform=linux/arm64 nginx:1.14.2
+--platform=linux/arm64 nginx:1.16.1
+--platform=linux/arm64 nginx:1.18.0
+--platform=linux/arm64 nginx:1.20.2
+--platform=linux/arm64 nginx:1.22.1
+--platform=linux/arm64 nginx:1.24.0
+--platform=linux/arm64 nginx:1.25.1
+--platform=linux/arm64 nginx:1.26.1
+--platform=linux/arm64 nginx:1.27.0
+--platform=linux/arm64 mysql:8.0.31
+--platform=linux/arm64 mysql:8.0.39
+--platform=linux/arm64 mysql:8.4.2
+--platform=linux/arm64 mysql:9.0.1
+--platform=linux/arm64 mariadb:10.0.38
+--platform=linux/arm64 mariadb:10.1.48
+--platform=linux/arm64 mariadb:10.2.44
+--platform=linux/arm64 mariadb:10.3.39
+--platform=linux/arm64 mariadb:10.4.34
+--platform=linux/arm64 mariadb:10.5.28
+--platform=linux/arm64 mariadb:10.6.21
+--platform=linux/arm64 mariadb:10.11.11
+--platform=linux/arm64 nacos/nacos-server:v2.4.0 
+--platform=linux/arm64 nacos/nacos-server:v2.4.2
+--platform=linux/arm64 nacos/nacos-server:v2.4.3
+--platform=linux/arm64 nacos/nacos-server:v2.5.0
+--platform=linux/arm64 nacos/nacos-server:v2.5.1
+--platform=linux/arm64 nacos/nacos-operator:v1.0.1
+--platform=linux/arm64 minio/mc:RELEASE.2021-02-14T04-28-06Z
+--platform=linux/arm64 minio/mc:RELEASE.2020-11-25T23-04-07Z
+--platform=linux/arm64 snowdreamtech/frps:0.32.1
+--platform=linux/arm64 snowdreamtech/frpc:0.32.1
+--platform=linux/arm64 gitlab/gitlab-ce:13.10.5-ce.0
+--platform=linux/amd64 gitlab/gitlab-ce:13.10.5-ce.0
+
+
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.9
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.3
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.2
+# registry.gitlab.com/gitlab-org/gitlab-docs:13.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.9
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.3
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.2
+# registry.gitlab.com/gitlab-org/gitlab-docs:12.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.9
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.3
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.2
+# registry.gitlab.com/gitlab-org/gitlab-docs:11.1
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.8
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.7
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.6
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.5
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.4
+# registry.gitlab.com/gitlab-org/gitlab-docs:10.3
 
 # 历史镜像记录
 # nginx:1.28.0

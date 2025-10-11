@@ -1,14 +1,3 @@
-registry.gitlab.com/gitlab-org/gitlab-docs:14.1
-registry.gitlab.com/gitlab-org/gitlab-docs:14.9
-registry.gitlab.com/gitlab-org/gitlab-docs:14.8
-registry.gitlab.com/gitlab-org/gitlab-docs:14.7
-registry.gitlab.com/gitlab-org/gitlab-docs:14.6
-registry.gitlab.com/gitlab-org/gitlab-docs:14.5
-registry.gitlab.com/gitlab-org/gitlab-docs:14.4
-registry.gitlab.com/gitlab-org/gitlab-docs:14.3
-registry.gitlab.com/gitlab-org/gitlab-docs:14.2
-registry.gitlab.com/gitlab-org/gitlab-docs:14.1
-registry.gitlab.com/gitlab-org/gitlab-docs:14
 registry.gitlab.com/gitlab-org/gitlab-docs:13.1
 registry.gitlab.com/gitlab-org/gitlab-docs:13.1
 registry.gitlab.com/gitlab-org/gitlab-docs:13.9
@@ -20,7 +9,6 @@ registry.gitlab.com/gitlab-org/gitlab-docs:13.4
 registry.gitlab.com/gitlab-org/gitlab-docs:13.3
 registry.gitlab.com/gitlab-org/gitlab-docs:13.2
 registry.gitlab.com/gitlab-org/gitlab-docs:13.1
-registry.gitlab.com/gitlab-org/gitlab-docs:13
 registry.gitlab.com/gitlab-org/gitlab-docs:12.1
 registry.gitlab.com/gitlab-org/gitlab-docs:12.9
 registry.gitlab.com/gitlab-org/gitlab-docs:12.8
@@ -31,7 +19,6 @@ registry.gitlab.com/gitlab-org/gitlab-docs:12.4
 registry.gitlab.com/gitlab-org/gitlab-docs:12.3
 registry.gitlab.com/gitlab-org/gitlab-docs:12.2
 registry.gitlab.com/gitlab-org/gitlab-docs:12.1
-registry.gitlab.com/gitlab-org/gitlab-docs:12
 registry.gitlab.com/gitlab-org/gitlab-docs:11.1
 registry.gitlab.com/gitlab-org/gitlab-docs:11.1
 registry.gitlab.com/gitlab-org/gitlab-docs:11.9
@@ -43,7 +30,6 @@ registry.gitlab.com/gitlab-org/gitlab-docs:11.4
 registry.gitlab.com/gitlab-org/gitlab-docs:11.3
 registry.gitlab.com/gitlab-org/gitlab-docs:11.2
 registry.gitlab.com/gitlab-org/gitlab-docs:11.1
-registry.gitlab.com/gitlab-org/gitlab-docs:11
 registry.gitlab.com/gitlab-org/gitlab-docs:10.8
 registry.gitlab.com/gitlab-org/gitlab-docs:10.7
 registry.gitlab.com/gitlab-org/gitlab-docs:10.6

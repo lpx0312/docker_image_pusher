@@ -1,9 +1,3 @@
-mongo:3
-mongo:2.8
-mongo:2.6
-mongo:2.4
-
-
 # library/alpine:latest
 # --platform=linux/arm64 library/alpine:latest
 # library/alpine:3.22.2

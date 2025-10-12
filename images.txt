@@ -1,4 +1,401 @@
---platform=linux/arm64 alpine:3.10
+library/alpine:latest
+--platform=linux/arm64 library/alpine:latest
+library/alpine:3.22.2
+--platform=linux/arm64 library/alpine:3.22.2
+library/alpine:3.22
+--platform=linux/arm64 library/alpine:3.22
+library/alpine:3.21.5
+--platform=linux/arm64 library/alpine:3.21.5
+library/alpine:3.21
+--platform=linux/arm64 library/alpine:3.21
+library/alpine:3.20.8
+--platform=linux/arm64 library/alpine:3.20.8
+library/alpine:3.20
+--platform=linux/arm64 library/alpine:3.20
+library/alpine:3.19.9
+--platform=linux/arm64 library/alpine:3.19.9
+library/alpine:3.19
+--platform=linux/arm64 library/alpine:3.19
+library/alpine:3
+--platform=linux/arm64 library/alpine:3
+library/alpine:3.22.1
+--platform=linux/arm64 library/alpine:3.22.1
+library/alpine:3.21.4
+--platform=linux/arm64 library/alpine:3.21.4
+library/alpine:3.20.7
+--platform=linux/arm64 library/alpine:3.20.7
+library/alpine:3.19.8
+--platform=linux/arm64 library/alpine:3.19.8
+library/alpine:3.22.0
+--platform=linux/arm64 library/alpine:3.22.0
+library/alpine:3.21.3
+--platform=linux/arm64 library/alpine:3.21.3
+library/alpine:3.20.6
+--platform=linux/arm64 library/alpine:3.20.6
+library/alpine:3.19.7
+--platform=linux/arm64 library/alpine:3.19.7
+library/alpine:3.18.12
+--platform=linux/arm64 library/alpine:3.18.12
+library/alpine:3.18
+--platform=linux/arm64 library/alpine:3.18
+library/alpine:edge
+--platform=linux/arm64 library/alpine:edge
+library/alpine:3.21.2
+--platform=linux/arm64 library/alpine:3.21.2
+library/alpine:3.20.5
+--platform=linux/arm64 library/alpine:3.20.5
+library/alpine:3.19.6
+--platform=linux/arm64 library/alpine:3.19.6
+library/alpine:3.18.11
+--platform=linux/arm64 library/alpine:3.18.11
+library/alpine:20250108
+--platform=linux/arm64 library/alpine:20250108
+library/alpine:3.21.1
+--platform=linux/arm64 library/alpine:3.21.1
+library/alpine:3.20.4
+--platform=linux/arm64 library/alpine:3.20.4
+library/alpine:3.19.5
+--platform=linux/arm64 library/alpine:3.19.5
+library/alpine:3.18.10
+--platform=linux/arm64 library/alpine:3.18.10
+library/alpine:3.21.0
+--platform=linux/arm64 library/alpine:3.21.0
+library/alpine:20240923
+--platform=linux/arm64 library/alpine:20240923
+library/alpine:3.20.3
+--platform=linux/arm64 library/alpine:3.20.3
+library/alpine:3.19.4
+--platform=linux/arm64 library/alpine:3.19.4
+library/alpine:3.18.9
+--platform=linux/arm64 library/alpine:3.18.9
+library/alpine:3.17.10
+--platform=linux/arm64 library/alpine:3.17.10
+library/alpine:3.17
+--platform=linux/arm64 library/alpine:3.17
+library/alpine:20240807
+--platform=linux/arm64 library/alpine:20240807
+library/alpine:3.20.2
+--platform=linux/arm64 library/alpine:3.20.2
+library/alpine:3.19.3
+--platform=linux/arm64 library/alpine:3.19.3
+library/alpine:3.18.8
+--platform=linux/arm64 library/alpine:3.18.8
+library/alpine:3.17.9
+--platform=linux/arm64 library/alpine:3.17.9
+library/alpine:3.20.1
+--platform=linux/arm64 library/alpine:3.20.1
+library/alpine:3.19.2
+--platform=linux/arm64 library/alpine:3.19.2
+library/alpine:3.18.7
+--platform=linux/arm64 library/alpine:3.18.7
+library/alpine:3.17.8
+--platform=linux/arm64 library/alpine:3.17.8
+library/alpine:20240606
+--platform=linux/arm64 library/alpine:20240606
+library/alpine:3.20.0
+--platform=linux/arm64 library/alpine:3.20.0
+library/alpine:20240329
+--platform=linux/arm64 library/alpine:20240329
+library/alpine:20240315
+--platform=linux/arm64 library/alpine:20240315
+library/alpine:3.19.1
+--platform=linux/arm64 library/alpine:3.19.1
+library/alpine:3.18.6
+--platform=linux/arm64 library/alpine:3.18.6
+library/alpine:3.17.7
+--platform=linux/arm64 library/alpine:3.17.7
+library/alpine:3.16.9
+--platform=linux/arm64 library/alpine:3.16.9
+library/alpine:3.16
+--platform=linux/arm64 library/alpine:3.16
+library/alpine:20231219
+--platform=linux/arm64 library/alpine:20231219
+library/alpine:3.19.0
+--platform=linux/arm64 library/alpine:3.19.0
+library/alpine:3.18.5
+--platform=linux/arm64 library/alpine:3.18.5
+library/alpine:3.17.6
+--platform=linux/arm64 library/alpine:3.17.6
+library/alpine:3.16.8
+--platform=linux/arm64 library/alpine:3.16.8
+library/alpine:3.15.11
+--platform=linux/arm64 library/alpine:3.15.11
+library/alpine:3.15
+--platform=linux/arm64 library/alpine:3.15
+library/alpine:3.18.4
+--platform=linux/arm64 library/alpine:3.18.4
+library/alpine:20230901
+--platform=linux/arm64 library/alpine:20230901
+library/alpine:3.18.3
+--platform=linux/arm64 library/alpine:3.18.3
+library/alpine:3.17.5
+--platform=linux/arm64 library/alpine:3.17.5
+library/alpine:3.16.7
+--platform=linux/arm64 library/alpine:3.16.7
+library/alpine:3.15.10
+--platform=linux/arm64 library/alpine:3.15.10
+library/alpine:3.18.2
+--platform=linux/arm64 library/alpine:3.18.2
+library/alpine:3.17.4
+--platform=linux/arm64 library/alpine:3.17.4
+library/alpine:3.16.6
+--platform=linux/arm64 library/alpine:3.16.6
+library/alpine:3.15.9
+--platform=linux/arm64 library/alpine:3.15.9
+library/alpine:3.18.0
+--platform=linux/arm64 library/alpine:3.18.0
+library/alpine:3.17.3
+--platform=linux/arm64 library/alpine:3.17.3
+library/alpine:3.16.5
+--platform=linux/arm64 library/alpine:3.16.5
+library/alpine:3.15.8
+--platform=linux/arm64 library/alpine:3.15.8
+library/alpine:3.14.10
+--platform=linux/arm64 library/alpine:3.14.10
+library/alpine:3.14
+--platform=linux/arm64 library/alpine:3.14
+library/alpine:20230329
+--platform=linux/arm64 library/alpine:20230329
+library/alpine:3.17.2
+--platform=linux/arm64 library/alpine:3.17.2
+library/alpine:3.16.4
+--platform=linux/arm64 library/alpine:3.16.4
+library/alpine:3.15.7
+--platform=linux/arm64 library/alpine:3.15.7
+library/alpine:3.14.9
+--platform=linux/arm64 library/alpine:3.14.9
+library/alpine:20230208
+--platform=linux/arm64 library/alpine:20230208
+library/alpine:3.17.1
+--platform=linux/arm64 library/alpine:3.17.1
+library/alpine:3.17.0
+--platform=linux/arm64 library/alpine:3.17.0
+library/alpine:3.17.0_rc1
+--platform=linux/arm64 library/alpine:3.17.0_rc1
+library/alpine:3.16.3
+--platform=linux/arm64 library/alpine:3.16.3
+library/alpine:3.16.2
+--platform=linux/arm64 library/alpine:3.16.2
+library/alpine:3.15.6
+--platform=linux/arm64 library/alpine:3.15.6
+library/alpine:3.14.8
+--platform=linux/arm64 library/alpine:3.14.8
+library/alpine:3.13.12
+--platform=linux/arm64 library/alpine:3.13.12
+library/alpine:3.13
+--platform=linux/arm64 library/alpine:3.13
+library/alpine:20221110
+--platform=linux/arm64 library/alpine:20221110
+library/alpine:20220715
+--platform=linux/arm64 library/alpine:20220715
+library/alpine:3.15.5
+--platform=linux/arm64 library/alpine:3.15.5
+library/alpine:3.14.7
+--platform=linux/arm64 library/alpine:3.14.7
+library/alpine:3.13.11
+--platform=linux/arm64 library/alpine:3.13.11
+library/alpine:3.16.1
+--platform=linux/arm64 library/alpine:3.16.1
+library/alpine:3.16.0
+--platform=linux/arm64 library/alpine:3.16.0
+library/alpine:3.15.4
+--platform=linux/arm64 library/alpine:3.15.4
+library/alpine:3.14.6
+--platform=linux/arm64 library/alpine:3.14.6
+library/alpine:3.13.10
+--platform=linux/arm64 library/alpine:3.13.10
+library/alpine:3.12.12
+--platform=linux/arm64 library/alpine:3.12.12
+library/alpine:3.12
+--platform=linux/arm64 library/alpine:3.12
+library/alpine:3.15.3
+--platform=linux/arm64 library/alpine:3.15.3
+library/alpine:3.14.5
+--platform=linux/arm64 library/alpine:3.14.5
+library/alpine:3.13.9
+--platform=linux/arm64 library/alpine:3.13.9
+library/alpine:3.12.11
+--platform=linux/arm64 library/alpine:3.12.11
+library/alpine:20220328
+--platform=linux/arm64 library/alpine:20220328
+library/alpine:3.15.2
+--platform=linux/arm64 library/alpine:3.15.2
+library/alpine:3.14.4
+--platform=linux/arm64 library/alpine:3.14.4
+library/alpine:3.13.8
+--platform=linux/arm64 library/alpine:3.13.8
+library/alpine:3.12.10
+--platform=linux/arm64 library/alpine:3.12.10
+library/alpine:20220316
+--platform=linux/arm64 library/alpine:20220316
+library/alpine:3.15.1
+--platform=linux/arm64 library/alpine:3.15.1
+library/alpine:3.15.0
+--platform=linux/arm64 library/alpine:3.15.0
+library/alpine:3.15.0-rc.4
+--platform=linux/arm64 library/alpine:3.15.0-rc.4
+library/alpine:3.14.3
+--platform=linux/arm64 library/alpine:3.14.3
+library/alpine:3.13.7
+--platform=linux/arm64 library/alpine:3.13.7
+library/alpine:3.12.9
+--platform=linux/arm64 library/alpine:3.12.9
+library/alpine:3.11.13
+--platform=linux/arm64 library/alpine:3.11.13
+library/alpine:3.11
+--platform=linux/arm64 library/alpine:3.11
+library/alpine:20210804
+--platform=linux/arm64 library/alpine:20210804
+library/alpine:3.13.6
+--platform=linux/arm64 library/alpine:3.13.6
+library/alpine:3.12.8
+--platform=linux/arm64 library/alpine:3.12.8
+library/alpine:3.11.12
+--platform=linux/arm64 library/alpine:3.11.12
+library/alpine:3.14.2
+--platform=linux/arm64 library/alpine:3.14.2
+library/alpine:3.14.1
+--platform=linux/arm64 library/alpine:3.14.1
+library/alpine:3.14.0
+--platform=linux/arm64 library/alpine:3.14.0
+library/alpine:3.13.5
+--platform=linux/arm64 library/alpine:3.13.5
+library/alpine:3.12.7
+--platform=linux/arm64 library/alpine:3.12.7
+library/alpine:3.11.11
+--platform=linux/arm64 library/alpine:3.11.11
+library/alpine:20210730
+--platform=linux/arm64 library/alpine:20210730
+library/alpine:20210212
+--platform=linux/arm64 library/alpine:20210212
+library/alpine:3.10.9
+--platform=linux/arm64 library/alpine:3.10.9
+library/alpine:3.10
+--platform=linux/arm64 library/alpine:3.10
+library/alpine:3.13.4
+--platform=linux/arm64 library/alpine:3.13.4
+library/alpine:3.12.6
+--platform=linux/arm64 library/alpine:3.12.6
+library/alpine:3.11.10
+--platform=linux/arm64 library/alpine:3.11.10
+library/alpine:3.10.8
+--platform=linux/arm64 library/alpine:3.10.8
+library/alpine:3.13.3
+--platform=linux/arm64 library/alpine:3.13.3
+library/alpine:3.12.5
+--platform=linux/arm64 library/alpine:3.12.5
+library/alpine:3.11.9
+--platform=linux/arm64 library/alpine:3.11.9
+library/alpine:3.10.7
+--platform=linux/arm64 library/alpine:3.10.7
+library/alpine:3.12.4
+--platform=linux/arm64 library/alpine:3.12.4
+library/alpine:3.11.8
+--platform=linux/arm64 library/alpine:3.11.8
+library/alpine:3.10.6
+--platform=linux/arm64 library/alpine:3.10.6
+library/alpine:3.13.2
+--platform=linux/arm64 library/alpine:3.13.2
+library/alpine:3.13.1
+--platform=linux/arm64 library/alpine:3.13.1
+library/alpine:3.13.0
+--platform=linux/arm64 library/alpine:3.13.0
+library/alpine:20201218
+--platform=linux/arm64 library/alpine:20201218
+library/alpine:3.12.3
+--platform=linux/arm64 library/alpine:3.12.3
+library/alpine:3.11.7
+--platform=linux/arm64 library/alpine:3.11.7
+library/alpine:3.12.2
+--platform=linux/arm64 library/alpine:3.12.2
+library/alpine:3.12.1
+--platform=linux/arm64 library/alpine:3.12.1
+library/alpine:20200917
+--platform=linux/arm64 library/alpine:20200917
+library/alpine:20200626
+--platform=linux/arm64 library/alpine:20200626
+library/alpine:3.12.0
+--platform=linux/arm64 library/alpine:3.12.0
+library/alpine:20200428
+--platform=linux/arm64 library/alpine:20200428
+library/alpine:3.9.6
+--platform=linux/arm64 library/alpine:3.9.6
+library/alpine:3.9
+--platform=linux/arm64 library/alpine:3.9
+library/alpine:3.11.6
+--platform=linux/arm64 library/alpine:3.11.6
+library/alpine:3.10.5
+--platform=linux/arm64 library/alpine:3.10.5
+library/alpine:3.11.5
+--platform=linux/arm64 library/alpine:3.11.5
+library/alpine:20200319
+--platform=linux/arm64 library/alpine:20200319
+library/alpine:3.9.5
+--platform=linux/arm64 library/alpine:3.9.5
+library/alpine:3.8.5
+--platform=linux/arm64 library/alpine:3.8.5
+library/alpine:3.8
+--platform=linux/arm64 library/alpine:3.8
+library/alpine:3.10.4
+--platform=linux/arm64 library/alpine:3.10.4
+library/alpine:20200122
+--platform=linux/arm64 library/alpine:20200122
+library/alpine:3.11.3
+--platform=linux/arm64 library/alpine:3.11.3
+library/alpine:3.11.2
+--platform=linux/arm64 library/alpine:3.11.2
+library/alpine:3.11.0
+--platform=linux/arm64 library/alpine:3.11.0
+library/alpine:20191219
+--platform=linux/arm64 library/alpine:20191219
+library/alpine:20191114
+--platform=linux/arm64 library/alpine:20191114
+library/alpine:3.10.3
+--platform=linux/arm64 library/alpine:3.10.3
+library/alpine:20190925
+--platform=linux/arm64 library/alpine:20190925
+library/alpine:3.10.2
+--platform=linux/arm64 library/alpine:3.10.2
+library/alpine:3.8.4
+--platform=linux/arm64 library/alpine:3.8.4
+library/alpine:20190809
+--platform=linux/arm64 library/alpine:20190809
+library/alpine:3.10.1
+--platform=linux/arm64 library/alpine:3.10.1
+library/alpine:20190707
+--platform=linux/arm64 library/alpine:20190707
+library/alpine:3.9.4
+--platform=linux/arm64 library/alpine:3.9.4
+library/alpine:3.7.3
+--platform=linux/arm64 library/alpine:3.7.3
+library/alpine:3.7
+--platform=linux/arm64 library/alpine:3.7
+library/alpine:3.10.0
+--platform=linux/arm64 library/alpine:3.10.0
+library/alpine:20190508
+--platform=linux/arm64 library/alpine:20190508
+library/alpine:3.6.5
+--platform=linux/arm64 library/alpine:3.6.5
+library/alpine:3.6
+--platform=linux/arm64 library/alpine:3.6
+library/alpine:3.9.3
+--platform=linux/arm64 library/alpine:3.9.3
+library/alpine:20190408
+--platform=linux/arm64 library/alpine:20190408
+library/alpine:3.9.2
+--platform=linux/arm64 library/alpine:3.9.2
+library/alpine:20190228
+--platform=linux/arm64 library/alpine:20190228
+library/alpine:3.5
+library/alpine:3.4
+library/alpine:3.3
+library/alpine:3.2
+library/alpine:3.1
+library/alpine:2.7
+library/alpine:2.6
+
+# 历史镜像记录
+# --platform=linux/arm64 alpine:3.10
 
 # 历史镜像记录
 # --platform=linux/arm64 nginx:latest

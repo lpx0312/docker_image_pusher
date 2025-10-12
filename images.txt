@@ -1,4 +1,7 @@
---platform=linux/arm64 nginx:latest
+nginx:latest
+
+# 历史镜像记录
+# --platform=linux/arm64 nginx:latest
 
 # 历史镜像记录
 # --platform=linux/arm64 nginx:latest

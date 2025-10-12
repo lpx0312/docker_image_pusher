@@ -1,4 +1,8 @@
---platform=linux/arm64 redis:latest
+busybox:latest
+--platform=linux/arm64 busybox:latest
+
+# 历史镜像记录
+# --platform=linux/arm64 redis:latest
 
 # 历史镜像记录
 # nginx:latest

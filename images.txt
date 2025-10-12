@@ -345,7 +345,7 @@ mongo:2
 # --platform=linux/arm64 library/alpine:20210804
 # library/alpine:3.13.6
 # --platform=linux/arm64 library/alpine:3.13.6
-# library/alpine:3.12.8
+# library/alpine:3.12.8#
 # --platform=linux/arm64 library/alpine:3.12.8
 # library/alpine:3.11.12
 # --platform=linux/arm64 library/alpine:3.11.12

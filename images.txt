@@ -1,3 +1,5 @@
+node:18-alpine
+--platform=linux/arm64 node:18-alpine
 #################################  系统镜像  #################################
 
 ###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03

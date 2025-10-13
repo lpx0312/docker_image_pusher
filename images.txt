@@ -1,5 +1,8 @@
-node:18-alpine
---platform=linux/arm64 node:18-alpine
+nginx:1.25-alpine
+--platform=linux/arm64 nginx:1.25-alpine
+
+#node:18-alpine
+#--platform=linux/arm64 node:18-alpine
 #################################  系统镜像  #################################
 
 ###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03

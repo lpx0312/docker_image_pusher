@@ -1,7 +1,10 @@
+nginx:latest
+
+# 历史镜像记录
 #golang:1.21-alpine
 #--platform=linux/arm64 golang:1.21-alpine
-nginx:1.25-alpine
---platform=linux/arm64 nginx:1.25-alpine
+# nginx:1.25-alpine
+# --platform=linux/arm64 nginx:1.25-alpine
 #node:18-alpine
 #--platform=linux/arm64 node:18-alpine
 #################################  系统镜像  #################################

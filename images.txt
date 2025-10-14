@@ -1,4 +1,8 @@
-nginx:latest
+postgres:18.0-bookworm
+--platform=linux/arm64 postgres:18.0-bookworm
+
+# 历史镜像记录
+# nginx:latest
 
 # 历史镜像记录
 # nginx:1.27.0

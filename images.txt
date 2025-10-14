@@ -7,6 +7,9 @@ nginx:latest
 # nginx:latest
 
 # 历史镜像记录
+# nginx:latest
+
+# 历史镜像记录
 #golang:1.21-alpine
 #--platform=linux/arm64 golang:1.21-alpine
 # nginx:1.25-alpine

@@ -1,4 +1,7 @@
-alpine:3.18
+redis:7.0
+
+# 历史镜像记录
+# alpine:3.18
 
 # 历史镜像记录
 # nginx:1.25-alpine

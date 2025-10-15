@@ -1,4 +1,7 @@
-nginx:alpine
+nginx:1.27.0
+
+# 历史镜像记录
+# nginx:alpine
 
 # 历史镜像记录
 # busybox:latest

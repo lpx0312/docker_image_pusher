@@ -1,5 +1,8 @@
-nginx:1.27.0
---platform=linux/arm64 nginx:1.27.0
+nginx:latest
+
+# 历史镜像记录
+# nginx:1.27.0
+# --platform=linux/arm64 nginx:1.27.0
 
 # 历史镜像记录
 # nginx:1.24.1

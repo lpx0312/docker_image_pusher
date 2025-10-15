@@ -1,4 +1,7 @@
-mysql:8.0
+nginx:1.26.0
+
+# 历史镜像记录
+# mysql:8.0
 
 # 历史镜像记录
 # redis:alpine

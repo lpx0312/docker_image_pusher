@@ -1,5 +1,8 @@
-nginx:latest
-redis:alpine
+--platform=linux/arm64 redis:6.0.2
+
+# 历史镜像记录
+# nginx:latest
+# redis:alpine
 
 # 历史镜像记录
 # nginx:latest

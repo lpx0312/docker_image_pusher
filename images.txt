@@ -1,4 +1,7 @@
-alpine:latest
+nginx:1.24.0
+
+# 历史镜像记录
+# alpine:latest
 
 # 历史镜像记录
 # nginx:1.25.0

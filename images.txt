@@ -1,4 +1,7 @@
-nginx:test
+redis:latest
+
+# 历史镜像记录
+# nginx:test
 
 # 历史镜像记录
 # postgres:18.0-bookworm

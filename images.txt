@@ -1,4 +1,7 @@
-nginx:1.25.0
+alpine:latest
+
+# 历史镜像记录
+# nginx:1.25.0
 
 # 历史镜像记录
 # postgres:16.10-alpine3.22

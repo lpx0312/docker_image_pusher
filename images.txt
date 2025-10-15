@@ -1,4 +1,7 @@
---platform=linux/arm64 resis:6.0.2
+nginx:1.24.1
+
+# 历史镜像记录
+# --platform=linux/arm64 resis:6.0.2
 
 # 历史镜像记录
 # --platform=linux/arm64 redis:6.0.2

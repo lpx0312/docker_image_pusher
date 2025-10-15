@@ -1,5 +1,8 @@
-postgres:16.10-alpine3.22
---platform=linux/arm64 postgres:16.10-alpine3.22
+nginx:1.25.0
+
+# 历史镜像记录
+# postgres:16.10-alpine3.22
+# --platform=linux/arm64 postgres:16.10-alpine3.22
 
 # 历史镜像记录
 # nginx:1.26.0

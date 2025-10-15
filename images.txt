@@ -1,4 +1,7 @@
-redis:alpine
+mysql:8.0
+
+# 历史镜像记录
+# redis:alpine
 
 # 历史镜像记录
 # nginx:latest

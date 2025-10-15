@@ -1,4 +1,7 @@
-postgres:15-alpine
+nginx:1.25-alpine
+
+# 历史镜像记录
+# postgres:15-alpine
 
 # 历史镜像记录
 # redis:7-alpine

@@ -1,4 +1,7 @@
-nginx:1.25
+--platform=linux/arm64 redis:6.02
+
+# 历史镜像记录
+# nginx:1.25
 
 # 历史镜像记录
 # alpine:3.18

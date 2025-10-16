@@ -1,5 +1,9 @@
-nginx:latest
-redis:latest
+alpine:latest
+ubuntu:latest
+
+# 历史镜像记录
+# nginx:latest
+# redis:latest
 
 # 历史镜像记录
 # nginx:1.18.0

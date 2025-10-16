@@ -1,4 +1,8 @@
-nginx:1.18.0
+nginx:latest
+redis:latest
+
+# 历史镜像记录
+# nginx:1.18.0
 
 # 历史镜像记录
 # nginx:1.19

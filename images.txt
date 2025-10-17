@@ -1,159 +1,16 @@
-alpine:latest
-ubuntu:latest
+#################################  系统镜像  #################################
+###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
 
-# 历史镜像记录
-# nginx:latest
-# redis:latest
-
-# 历史镜像记录
-# nginx:1.18.0
-
-# 历史镜像记录
-# nginx:1.19
-
-# 历史镜像记录
-# nginx:1.24.0
-
-# 历史镜像记录
-# alpine:latest
-
-# 历史镜像记录
-# nginx:1.25.0
-
-# 历史镜像记录
 # postgres:16.10-alpine3.22
 # --platform=linux/arm64 postgres:16.10-alpine3.22
-
-# 历史镜像记录
-# nginx:1.26.0
-
-# 历史镜像记录
-# mysql:8.0
-
-# 历史镜像记录
-# redis:alpine
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# nginx:1.27.0
-# --platform=linux/arm64 nginx:1.27.0
-
-# 历史镜像记录
-# nginx:1.24.1
-
-# 历史镜像记录
-# --platform=linux/arm64 resis:6.0.2
-
-# 历史镜像记录
-# --platform=linux/arm64 redis:6.0.2
-
-# 历史镜像记录
-# nginx:latest
-# redis:alpine
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# --platform=linux/arm64 redis:6.02
-
-# 历史镜像记录
-# nginx:1.25
-
-# 历史镜像记录
-# alpine:3.18
-
-# 历史镜像记录
-# busybox:1.36
-
-# 历史镜像记录
-# busybox:1.36
-
-# 历史镜像记录
-# redis:7.0
-
-# 历史镜像记录
-# alpine:3.18
-
-# 历史镜像记录
-# nginx:1.25-alpine
-
-# 历史镜像记录
-# postgres:15-alpine
-
-# 历史镜像记录
-# redis:7-alpine
-
-# 历史镜像记录
-# nginx:1.27.0
-
-# 历史镜像记录
-# nginx:alpine
-
-# 历史镜像记录
-# busybox:latest
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# busybox:latest
-
-# 历史镜像记录
-# redis:latest
-
-# 历史镜像记录
-# nginx:test
-
-# 历史镜像记录
 # postgres:18.0-bookworm
 # --platform=linux/arm64 postgres:18.0-bookworm
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# nginx:1.27.0
-
-# 历史镜像记录
-# --platform=linux/arm64 nginx:latest
-
-# 历史镜像记录
-# redis:latest
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# nginx:1.39.3
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
-# nginx:latest
-
-# 历史镜像记录
 #golang:1.21-alpine
 #--platform=linux/arm64 golang:1.21-alpine
 # nginx:1.25-alpine
 # --platform=linux/arm64 nginx:1.25-alpine
 #node:18-alpine
 #--platform=linux/arm64 node:18-alpine
-#################################  系统镜像  #################################
-
-###### 阿里云地址: registry.cn-hangzhou.aliyuncs.com/lpx03
 
 #goharbor/prepare:v2.2.3
 

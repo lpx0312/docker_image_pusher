@@ -1,4 +1,7 @@
-nginx:latest
+	
+registry.gitlab.com/gitlab-org/gitlab-foss/gitlab-assets-ce:v17.3.4
+
+# nginx:latest
 
 # 历史镜像记录
 # nginx:latest

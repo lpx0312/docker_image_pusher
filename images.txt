@@ -1,4 +1,7 @@
-eipwork/kuboard-spray:v1.2.3-amd64
+eipwork/kuboard-spray:v1.2.4-amd64
+
+# 历史镜像记录
+# eipwork/kuboard-spray:v1.2.3-amd64
 
 # 历史镜像记录
 #################################  系统镜像  #################################

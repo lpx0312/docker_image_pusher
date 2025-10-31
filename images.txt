@@ -1,4 +1,8 @@
-eipwork/kuboard-spray:v1.2.4-amd64
+node:14.21.3-bullseye-slim
+--platform=linux/arm64 node:14.21.3-bullseye-slim
+
+
+#eipwork/kuboard-spray:v1.2.4-amd64
 
 # 历史镜像记录
 # eipwork/kuboard-spray:v1.2.3-amd64

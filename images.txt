@@ -1,4 +1,7 @@
-keking/kkfileview-base:4.4.0
+keking/kkfileview:v2.2.2.1
+
+# 历史镜像记录
+# keking/kkfileview-base:4.4.0
 
 # 历史镜像记录
 # node:14.21.3-bullseye-slim

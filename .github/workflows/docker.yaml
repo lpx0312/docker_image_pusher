@@ -18,13 +18,13 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v4
-    - name: Install latest Skopeo
-      run: |
-        # 以下是一个基于Ubuntu的示例，其他系统请参考Skopeo官方安装指南
-        sudo apt-get update
-        sudo apt-get install -y skopeo
-        # 或者使用Snap安装可能版本更新
-        # sudo snap install skopeo
+    #- name: Install latest Skopeo
+    #  run: |
+    #    # 以下是一个基于Ubuntu的示例，其他系统请参考Skopeo官方安装指南
+    #    sudo apt-get update
+    #    sudo apt-get install -y skopeo
+    #    # 或者使用Snap安装可能版本更新
+    #    # sudo snap install skopeo
     - name: Check Skopeo
       run: skopeo --version
     - name: Sync images using Skopeo
@@ -108,8 +108,8 @@ jobs:
             if [ -z "$platform" ]; then
                 # 不指定平台时，默认只复制当前架构（而不是所有架构）
                 echo "Running Skopeo Copy (Single Architecture)..."
+                #  skopeo 版本太低，用不了--image-parallel-copies 6 \
                 skopeo copy \
-                    --image-parallel-copies 6 \
                     "$SOURCE_IMAGE" \
                     "$TARGET_IMAGE"
             else
@@ -126,8 +126,8 @@ jobs:
                 if [ -z "$override_arch" ]; then override_arch="amd64"; fi
                 if [ -z "$override_os" ]; then override_os="linux"; fi
 
+                # --image-parallel-copies 6 \
                 skopeo copy \
-                    --image-parallel-copies 6 \
                     --override-os "$override_os" \
                     --override-arch "$override_arch" \
                     "$SOURCE_IMAGE" \

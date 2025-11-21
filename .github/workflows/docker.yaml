@@ -27,7 +27,7 @@ jobs:
     #    # sudo snap install skopeo
     # 安装最新版本的Skopeo
     - name: Check Skopeo
-      run: 
+      run: |
         wget https://github.com/containers/skopeo/releases/latest/download/skopeo-$(uname -m)-static.tar.gz
         sudo tar -xf skopeo-*-static.tar.gz -C /usr/local/bin/ skopeo-static
         sudo mv /usr/local/bin/skopeo-static /usr/local/bin/skopeo

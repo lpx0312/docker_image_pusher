@@ -25,8 +25,13 @@ jobs:
     #    sudo apt-get install -y skopeo
     #    # 或者使用Snap安装可能版本更新
     #    # sudo snap install skopeo
+    # 安装最新版本的Skopeo
     - name: Check Skopeo
-      run: skopeo --version
+      run: 
+        wget https://github.com/containers/skopeo/releases/latest/download/skopeo-$(uname -m)-static.tar.gz
+        sudo tar -xf skopeo-*-static.tar.gz -C /usr/local/bin/ skopeo-static
+        sudo mv /usr/local/bin/skopeo-static /usr/local/bin/skopeo
+        skopeo --version
     - name: Sync images using Skopeo
       run: |
         # 使用 skopeo 不需要 docker login，直接在命令中带入凭证，或者在这里登录
@@ -108,8 +113,9 @@ jobs:
             if [ -z "$platform" ]; then
                 # 不指定平台时，默认只复制当前架构（而不是所有架构）
                 echo "Running Skopeo Copy (Single Architecture)..."
-                #  skopeo 版本太低，用不了--image-parallel-copies 6 \
+                #  skopeo 版本太低，用不了
                 skopeo copy \
+                    --image-parallel-copies 6 \
                     "$SOURCE_IMAGE" \
                     "$TARGET_IMAGE"
             else
@@ -126,8 +132,9 @@ jobs:
                 if [ -z "$override_arch" ]; then override_arch="amd64"; fi
                 if [ -z "$override_os" ]; then override_os="linux"; fi
 
-                # --image-parallel-copies 6 \
+                # 
                 skopeo copy \
+                    --image-parallel-copies 6 \
                     --override-os "$override_os" \
                     --override-arch "$override_arch" \
                     "$SOURCE_IMAGE" \

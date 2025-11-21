@@ -121,6 +121,7 @@ jobs:
                 if [ -z "$override_os" ]; then override_os="linux"; fi
 
                 skopeo copy \
+                    --image-parallel-copies 4 \
                     --override-os "$override_os" \
                     --override-arch "$override_arch" \
                     "$SOURCE_IMAGE" \

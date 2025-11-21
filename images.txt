@@ -1,1 +1,1 @@
-nginx:1.28.0-bookworm
+nginx:1.26.3-bookworm

@@ -101,9 +101,10 @@ jobs:
             # --src-tls-verify=false 有些私有库可能需要，DockerHub 一般不需要，这里默认设为默认值即可
             
             if [ -z "$platform" ]; then
-                # 情况1：没有指定架构，使用 --all 复制所有架构 (AMD64, ARM64 等) 并保持 Manifest list
-                echo "Running Skopeo Copy (Multi-Arch)..."
-                skopeo copy --all \
+                # 不指定平台时，默认只复制当前架构（而不是所有架构）
+                echo "Running Skopeo Copy (Single Architecture)..."
+                skopeo copy \
+                    --image-parallel-copies 6 \
                     "$SOURCE_IMAGE" \
                     "$TARGET_IMAGE"
             else
@@ -121,7 +122,7 @@ jobs:
                 if [ -z "$override_os" ]; then override_os="linux"; fi
 
                 skopeo copy \
-                    --image-parallel-copies 10 \
+                    --image-parallel-copies 6 \
                     --override-os "$override_os" \
                     --override-arch "$override_arch" \
                     "$SOURCE_IMAGE" \

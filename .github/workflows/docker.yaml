@@ -18,10 +18,15 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v4
-
+    - name: Install latest Skopeo
+      run: |
+        # 以下是一个基于Ubuntu的示例，其他系统请参考Skopeo官方安装指南
+        sudo apt-get update
+        sudo apt-get install -y skopeo
+        # 或者使用Snap安装可能版本更新
+        # sudo snap install skopeo
     - name: Check Skopeo
       run: skopeo --version
-
     - name: Sync images using Skopeo
       run: |
         # 使用 skopeo 不需要 docker login，直接在命令中带入凭证，或者在这里登录

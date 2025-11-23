@@ -1,1 +1,1 @@
-redis:alpine
+nginx:1.18.0

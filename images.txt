@@ -1,4 +1,1 @@
-nginx:1.18.0
---platform=linux/arm64 nginx:1.18.0
-nginx:1.26.0
---platform=linux/arm64 nginx:1.26.0
+nginx:1.27.0

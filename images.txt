@@ -1,1 +1,1 @@
-nginx:1.30.0
+eclipse-temurin:25-jdk-noble
